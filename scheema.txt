@@ -1,0 +1,98 @@
+                         +------------------+
+                         |   Dim_Region     |
+                         +------------------+
+                         | id_region (PK)   |
+                         | ville            |
+                         | region           |
+                         | pays             |
+                         +------------------+
+                                  ^
+                                  |
+        +------------------+      |      +------------------+
+        |   Dim_Temps      |------+------|  Dim_Livraison   |
+        +------------------+             +------------------+
+        | id_temps (PK)    |             | id_livraison(PK)|
+        | jour             |             | mode_livraison   |
+        | mois             |             | type_livraison   |
+        | annee            |             +------------------+
+        +------------------+
+              ^    ^
+              |    |
+              |    |
+   +-------------------------+        +-------------------------+
+   |     FACT_Livraison      |        |       Fact_Vente        |
+   +-------------------------+        +-------------------------+
+   | id_fact_livraison (PK)  |        | id_vente (PK)           |
+   | id_temps (FK)           |        | id_temps (FK)           |
+   | id_livraison (FK)       |        | id_region (FK)          |
+   | id_region (FK)          |        | id_client (FK)          |
+   | id_client (FK)          |        | id_produit (FK)         |
+   +-------------------------+        | id_canal (FK)           |
+                                      | chiffre_affaire        |
+                                      | quantite_vendue        |
+                                      | panier_moyen           |
+                                      | nombre_ventes          |
+                                      +-------------------------+
+                                                |
+                                                |
+                      +------------------+      |
+                      |   Dim_Client     |<-----+
+                      +------------------+
+                      | id_client (PK)   |
+                      | prenom           |
+                      | nom              |
+                      | email            |
+                      | age              |
+                      | sexe             |
+                      | province         |
+                      | adresse          |
+                      | code_postal      |
+                      | ville            |
+                      | pays             |
+                      | canal_acquisition|
+                      | date_inscription |
+                      +------------------+
+                               ^
+                               |
+                      +------------------+
+                      |    Dim_Canal     |
+                      +------------------+
+                      | id_canal (PK)    |
+                      | nom_canal        |
+                      | type_canal       |
+                      | categorie_canal  |
+                      | plateforme       |
+                      | marketplace_nom  |
+                      | ville_magasin    |
+                      | chiffre_affaires |
+                      | nombre_transactions|
+                      +------------------+
+                               ^
+                               |
+              +--------------------------------+
+              |       Fact_Satisfaction       |
+              +--------------------------------+
+              | id_satisfaction (PK)          |
+              | id_temps (FK)                 |
+              | id_canal (FK)                 |
+              | id_client (FK)                |
+              | id_produit (FK)               |
+              | note_satisfaction             |
+              | taux_satisfaction             |
+              | nombre_avis                   |
+              | nombre_ventes                 |
+              +--------------------------------+
+                               |
+                               |
+                      +------------------+
+                      |   Dim_Produit    |
+                      +------------------+
+                      | id_produit (PK)  |
+                      | prix_achat       |
+                      | categorie        |
+                      | designation      |
+                      | marque           |
+                      | prix_vente       |
+                      | reference_produit|
+                      | id_centre_dist   |
+                      +------------------+

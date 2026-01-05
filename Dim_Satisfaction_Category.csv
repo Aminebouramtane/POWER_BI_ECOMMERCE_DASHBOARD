@@ -1,0 +1,5 @@
+id_satisfaction_category,category_name,category_description,weight,display_order
+1,Product Quality,Rating based on product quality and features,0.35,1
+2,Delivery Speed,Rating based on delivery time and punctuality,0.25,2
+3,Customer Service,Rating based on support and communication,0.2,3
+4,Value for Money,Rating based on price-to-value ratio,0.2,4

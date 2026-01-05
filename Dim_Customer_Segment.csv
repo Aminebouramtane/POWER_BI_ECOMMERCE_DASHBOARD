@@ -1,0 +1,8 @@
+id_segment,segment_name,segment_description,rfm_score,recency_score,frequency_score,monetary_score,min_clv,max_clv,is_active
+1,Champions,"Bought recently, buy often and spend the most",555,5,5,5,10000,999999,True
+2,Loyal Customers,"Spend good money, responsive to promotions",444,4,4,4,5000,9999,True
+3,Potential Loyalists,Recent customers with average frequency,543,5,4,3,2000,4999,True
+4,New Customers,Bought recently but not frequently,511,5,1,1,0,999,True
+5,At Risk,Purchased often but long time ago,244,2,4,4,3000,7999,True
+6,Churned,Haven't purchased in a long time,111,1,1,1,0,1999,False
+7,Promising,Recent shoppers but haven't spent much,512,5,1,2,500,1999,True

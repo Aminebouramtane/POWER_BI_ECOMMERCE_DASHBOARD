@@ -1,0 +1,6 @@
+id_status,status_name,status_category,is_successful,is_cancelled,is_returned,display_color,display_order
+1,Complete,Success,True,False,False,#28a745,1
+2,Shipped,In Progress,False,False,False,#007bff,2
+3,Processing,In Progress,False,False,False,#ffc107,3
+4,Cancelled,Failed,False,True,False,#dc3545,4
+5,Returned,Failed,False,False,True,#fd7e14,5

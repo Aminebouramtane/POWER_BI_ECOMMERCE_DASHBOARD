@@ -1,0 +1,11 @@
+id_canal,nom_canal,type_canal,categorie_canal,plateforme,marketplace_nom,ville_magasin,chiffre_affaires,nombre_transactions
+1,Search,Digital,Acquisition,Google Ads,N/A,N/A,1935246.5823520762,2185
+2,Email,Digital,Retention,Email Marketing,N/A,N/A,4758500.10140859,1269
+3,Organic,Digital,Acquisition,SEO,N/A,N/A,3686770.314875885,2933
+4,Display,Digital,Acquisition,Display Ads,N/A,N/A,3033426.572565479,5811
+5,Facebook,Social Media,Acquisition,Facebook Ads,N/A,N/A,864491.338167939,38319
+6,Instagram,Social Media,Acquisition,Instagram Ads,N/A,N/A,864373.1496473929,39688
+7,Amazon,Marketplace,Vente,Amazon,Amazon,N/A,384609.69962417736,18068
+8,eBay,Marketplace,Vente,eBay,eBay,N/A,4344263.114297182,20269
+9,Site Web Direct,Digital,Direct,Site proprietaire,N/A,N/A,3045463.5575417234,29193
+10,Magasin Physique,Retail,Direct,N/A,N/A,Various,3569555.631200623,6896

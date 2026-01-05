@@ -1,0 +1,416 @@
+/*******************************************************************************
+ * VISUAL SCHEMA DIAGRAM - E-COMMERCE DATA WAREHOUSE
+ * Star Schema with Snowflake Elements
+ * Optimized for Power BI
+ ******************************************************************************/
+
+/*
+ * LEGEND:
+ * [PK] = Primary Key
+ * [FK] = Foreign Key
+ * → = One-to-Many Relationship
+ * ═══ = Enhanced/Calculated Column
+ */
+
+                         ╔════════════════════════════════╗
+                         ║    Dim_Temps_Enhanced          ║
+                         ║          (Date Table)          ║
+                         ╠════════════════════════════════╣
+                         ║ id_temps [PK]                  ║
+                         ║ date_complete ⭐               ║
+                         ║ jour, mois, annee              ║
+                         ║ nom_jour, nom_mois             ║
+                         ║ jour_semaine, semaine_annee    ║
+                         ║ trimestre, semestre            ║
+                         ║ fiscal_year, fiscal_quarter    ║
+                         ║ is_weekend, is_holiday         ║
+                         ║ is_current_month/quarter/year  ║
+                         ╚═══════════════╤════════════════╝
+                                         │
+                       ┌─────────────────┼─────────────────┐
+                       │                 │                 │
+                       ↓                 ↓                 ↓
+
+
+  ╔═══════════════════════════╗   ╔═══════════════════════════╗   ╔═══════════════════════════╗
+  ║  Dim_Canal                ║   ║  Dim_Livraison            ║   ║  Dim_Order_Status         ║
+  ╠═══════════════════════════╣   ╠═══════════════════════════╣   ╠═══════════════════════════╣
+  ║ id_canal [PK]             ║   ║ id_livraison [PK]         ║   ║ id_status [PK]            ║
+  ║ nom_canal                 ║   ║ mode_livraison            ║   ║ status_name               ║
+  ║ type_canal                ║   ║ type_livraison            ║   ║ status_category           ║
+  ║ categorie_canal           ║   ║ delai_promis_jours        ║   ║ is_successful             ║
+  ║ plateforme                ║   ║ cout_base                 ║   ║ is_cancelled              ║
+  ║ marketplace_nom           ║   ║ sla_heures                ║   ║ is_returned               ║
+  ║ chiffre_affaires          ║   ║ is_premium                ║   ║ display_color             ║
+  ║ nombre_transactions       ║   ╚═══════════════════════════╝   ╚═══════════════════════════╝
+  ╚═══════════╤═══════════════╝                 │                                │
+              │                                 │                                │
+              │                                 │                                │
+              └───────────┐                     └──────────┐                    │
+                          │                                │                    │
+                          ↓                                ↓                    ↓
+
+  ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+  ║                         FACT_Vente_Enhanced (Sales Fact)                                  ║
+  ║                    Grain: One row per order line item                                     ║
+  ╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+  ║ id_vente [PK]                                                                             ║
+  ║ id_temps [FK] ──→ Dim_Temps                                                               ║
+  ║ id_client [FK] ──→ Dim_Client                                                             ║
+  ║ id_produit [FK] ──→ Dim_Produit                                                           ║
+  ║ id_canal [FK] ──→ Dim_Canal                                                               ║
+  ║ id_region [FK] ──→ Dim_Region                                                             ║
+  ║ id_segment [FK] ──→ Dim_Customer_Segment                                                  ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ MEASURES:                                                                                 ║
+  ║ • chiffre_affaire (Revenue)                                                               ║
+  ║ • quantite_vendue (Units Sold)                                                            ║
+  ║ • panier_moyen (Basket Average)                                                           ║
+  ║ • nombre_ventes (Number of Sales)                                                         ║
+  ║ ═══ prix_achat_total (Total Cost) CALCULATED                                              ║
+  ║ ═══ marge_brute (Gross Profit) CALCULATED                                                 ║
+  ║ ═══ taux_marge (Margin %) CALCULATED                                                      ║
+  ║ ═══ remise_montant (Discount Amount)                                                      ║
+  ║ ═══ taux_remise (Discount %)                                                              ║
+  ║ ═══ cout_livraison (Shipping Cost)                                                        ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ DEGENERATE DIMENSIONS:                                                                    ║
+  ║ • order_id, order_status, payment_method                                                  ║
+  ╚═══════════╤═══════════════════════════════════════════════════════════════════════════════╝
+              │
+              ↑
+              │
+  ╔═══════════════════════════╗
+  ║  Dim_Client               ║
+  ╠═══════════════════════════╣
+  ║ id_client [PK]            ║
+  ║ prenom, nom, email        ║
+  ║ age, sexe                 ║
+  ║ province, adresse         ║
+  ║ code_postal, ville, pays  ║
+  ║ canal_acquisition         ║
+  ║ date_inscription          ║
+  ║ latitude, longitude       ║
+  ╚═══════════╤═══════════════╝
+              │
+              │ (Snowflake)
+              ↓
+  ╔═══════════════════════════╗
+  ║  Dim_Region               ║
+  ╠═══════════════════════════╣
+  ║ id_region [PK]            ║
+  ║ ville                     ║
+  ║ region                    ║
+  ║ pays                      ║
+  ║ latitude, longitude       ║
+  ║ region_code, timezone     ║
+  ╚═══════════════════════════╝
+
+
+              ↑
+              │
+  ╔═══════════════════════════╗
+  ║  Dim_Produit              ║
+  ╠═══════════════════════════╣
+  ║ id_produit [PK]           ║
+  ║ designation               ║
+  ║ categorie, marque         ║
+  ║ prix_achat, prix_vente    ║
+  ║ reference_produit (SKU)   ║
+  ║ id_centre_dist [FK]       ║
+  ║ department                ║
+  ║ ═══ marge_unitaire        ║
+  ║ ═══ taux_marge            ║
+  ║ is_active                 ║
+  ╚═══════════╤═══════════════╝
+              │
+              │ (Snowflake - Optional)
+              ↓
+  ╔═══════════════════════════╗
+  ║  Distribution_Centers     ║
+  ╠═══════════════════════════╣
+  ║ id [PK]                   ║
+  ║ name                      ║
+  ║ latitude, longitude       ║
+  ║ city, state               ║
+  ╚═══════════════════════════╝
+
+
+  ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+  ║                    FACT_Livraison_Enhanced (Delivery Fact)                                ║
+  ║                       Grain: One row per order delivery                                   ║
+  ╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+  ║ id_fact_livraison [PK]                                                                    ║
+  ║ id_temps [FK] ──→ Dim_Temps                                                               ║
+  ║ id_livraison [FK] ──→ Dim_Livraison                                                       ║
+  ║ id_region [FK] ──→ Dim_Region                                                             ║
+  ║ id_client [FK] ──→ Dim_Client                                                             ║
+  ║ id_status [FK] ──→ Dim_Order_Status                                                       ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ CALCULATED MEASURES:                                                                      ║
+  ║ ═══ delai_traitement_heures (Processing time)                                             ║
+  ║ ═══ delai_livraison_heures (Delivery time)                                                ║
+  ║ ═══ delai_total_heures (Total time)                                                       ║
+  ║ ═══ delai_vs_promis (Actual vs Promised)                                                  ║
+  ║ ═══ is_livraison_ontime (On-time flag)                                                    ║
+  ║ ═══ is_livraison_retard (Late flag)                                                       ║
+  ║ ═══ cout_livraison (Delivery cost)                                                        ║
+  ║ ═══ nombre_tentatives (Delivery attempts)                                                 ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ DEGENERATE DIMENSIONS:                                                                    ║
+  ║ • order_id, tracking_number                                                               ║
+  ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+  ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+  ║                  FACT_Satisfaction_Enhanced (Customer Feedback Fact)                      ║
+  ║                      Grain: One row per customer review/rating                            ║
+  ╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+  ║ id_satisfaction [PK]                                                                      ║
+  ║ id_temps [FK] ──→ Dim_Temps                                                               ║
+  ║ id_canal [FK] ──→ Dim_Canal                                                               ║
+  ║ id_client [FK] ──→ Dim_Client                                                             ║
+  ║ id_produit [FK] ──→ Dim_Produit                                                           ║
+  ║ id_satisfaction_category [FK] ──→ Dim_Satisfaction_Category                               ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ MEASURES:                                                                                 ║
+  ║ • note_satisfaction (1-5 stars)                                                           ║
+  ║ • taux_satisfaction (0.0-1.0)                                                             ║
+  ║ • nombre_avis (Review count)                                                              ║
+  ║ ═══ nps_score (Net Promoter Score: -100 to 100)                                           ║
+  ║ ═══ nps_category (Promoter/Passive/Detractor)                                             ║
+  ║ ═══ sentiment_score (-1.0 to 1.0)                                                         ║
+  ║ ═══ sentiment_label (Positive/Neutral/Negative)                                           ║
+  ║ • is_verified_purchase                                                                    ║
+  ║ • helpful_votes                                                                           ║
+  ║ ═══ resolution_time_hours (For complaints)                                                ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ DEGENERATE DIMENSIONS:                                                                    ║
+  ║ • review_id, review_source                                                                ║
+  ╚═══════════════════════════════╤═══════════════════════════════════════════════════════════╝
+                                  │
+                                  ↓
+                    ╔═════════════════════════════════╗
+                    ║ Dim_Satisfaction_Category       ║
+                    ╠═════════════════════════════════╣
+                    ║ id_satisfaction_category [PK]   ║
+                    ║ category_name                   ║
+                    ║ category_description            ║
+                    ║ weight (for NPS calculation)    ║
+                    ╚═════════════════════════════════╝
+
+
+  ╔═══════════════════════════════════════════════════════════════════════════════════════════╗
+  ║                     Fact_Daily_Sales (Aggregate Fact Table)                               ║
+  ║                 Grain: Daily aggregates by Region and Channel                             ║
+  ║                    PURPOSE: Fast dashboard KPI loading                                    ║
+  ╠═══════════════════════════════════════════════════════════════════════════════════════════╣
+  ║ id_temps [FK] ──→ Dim_Temps                                                               ║
+  ║ id_region [FK] ──→ Dim_Region                                                             ║
+  ║ id_canal [FK] ──→ Dim_Canal                                                               ║
+  ║───────────────────────────────────────────────────────────────────────────────────────────║
+  ║ PRE-AGGREGATED MEASURES:                                                                  ║
+  ║ • total_revenue (Daily revenue sum)                                                       ║
+  ║ • total_orders (Daily order count)                                                        ║
+  ║ • total_items (Daily items sold)                                                          ║
+  ║ • total_customers (Unique customers)                                                      ║
+  ║ • avg_order_value (AOV)                                                                   ║
+  ║ • total_profit (Daily profit sum)                                                         ║
+  ║ • avg_profit_margin (Average margin %)                                                    ║
+  ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+  ╔═══════════════════════════╗
+  ║ Dim_Customer_Segment      ║
+  ║    (RFM Analysis)         ║
+  ╠═══════════════════════════╣
+  ║ id_segment [PK]           ║
+  ║ segment_name              ║
+  ║ segment_description       ║
+  ║ rfm_score (e.g., "555")   ║
+  ║ recency_score (1-5)       ║
+  ║ frequency_score (1-5)     ║
+  ║ monetary_score (1-5)      ║
+  ║ min_clv, max_clv          ║
+  ║ is_active                 ║
+  ╚═══════════════════════════╝
+              │
+              │ (Optional relationship)
+              └──→ Fact_Vente_Enhanced
+
+
+/*******************************************************************************
+ * RELATIONSHIP SUMMARY
+ ******************************************************************************/
+
+PRIMARY STAR SCHEMA RELATIONSHIPS (Active, Single Direction):
+══════════════════════════════════════════════════════════════
+Dim_Temps (1) ────────→ (*) Fact_Vente_Enhanced
+Dim_Temps (1) ────────→ (*) Fact_Livraison_Enhanced
+Dim_Temps (1) ────────→ (*) Fact_Satisfaction_Enhanced
+Dim_Temps (1) ────────→ (*) Fact_Daily_Sales
+
+Dim_Client (1) ───────→ (*) Fact_Vente_Enhanced
+Dim_Client (1) ───────→ (*) Fact_Livraison_Enhanced
+Dim_Client (1) ───────→ (*) Fact_Satisfaction_Enhanced
+
+Dim_Produit (1) ──────→ (*) Fact_Vente_Enhanced
+Dim_Produit (1) ──────→ (*) Fact_Satisfaction_Enhanced
+
+Dim_Canal (1) ────────→ (*) Fact_Vente_Enhanced
+Dim_Canal (1) ────────→ (*) Fact_Satisfaction_Enhanced
+Dim_Canal (1) ────────→ (*) Fact_Daily_Sales
+
+Dim_Region (1) ───────→ (*) Fact_Vente_Enhanced
+Dim_Region (1) ───────→ (*) Fact_Livraison_Enhanced
+Dim_Region (1) ───────→ (*) Fact_Daily_Sales
+
+Dim_Livraison (1) ────→ (*) Fact_Livraison_Enhanced
+Dim_Order_Status (1) ─→ (*) Fact_Livraison_Enhanced
+
+Dim_Satisfaction_Category (1) → (*) Fact_Satisfaction_Enhanced
+Dim_Customer_Segment (1) → (*) Fact_Vente_Enhanced (Optional)
+
+
+SNOWFLAKE RELATIONSHIPS (For Hierarchy Navigation):
+════════════════════════════════════════════════════
+Dim_Client (*) ───────→ (1) Dim_Region
+Dim_Produit (*) ──────→ (1) Distribution_Centers
+
+
+/*******************************************************************************
+ * POWER BI MODEL CONFIGURATION
+ ******************************************************************************/
+
+DATE TABLE SETUP:
+═════════════════
+✅ Mark Dim_Temps_Enhanced as Date Table
+✅ Key Column: date_complete
+✅ Hide id_temps from report view
+✅ Create hierarchy: Year → Quarter → Month → Date
+
+HIDDEN COLUMNS (From Report View):
+═══════════════════════════════════
+All Foreign Keys in Fact Tables:
+  - id_temps, id_client, id_produit, id_canal, id_region, etc.
+  
+Technical ID columns in Dimensions:
+  - Keep visible: Names, Descriptions, Flags
+  - Hide: Surrogate keys (unless needed for debugging)
+
+AGGREGATION BEHAVIOR:
+═════════════════════
+Measures (SUM by default):
+  - Revenue, Profit, Cost, Units, etc.
+  
+Non-Additive (Use AVERAGE or DIVIDE):
+  - Margin %, Discount %, Ratings, NPS
+
+SORT BY COLUMNS:
+════════════════
+Dim_Temps_Enhanced:
+  - nom_mois → Sort by mois
+  - nom_jour → Sort by jour_semaine
+  - trimestre_label → Sort by annee, trimestre
+
+Dim_Order_Status:
+  - status_name → Sort by display_order
+
+DATA CATEGORIES (For Map Visuals):
+══════════════════════════════════
+Dim_Region:
+  - ville → City
+  - region → State or Province
+  - pays → Country
+  - latitude, longitude → Latitude, Longitude
+
+Dim_Client:
+  - Same as above
+
+FORMAT STRINGS:
+═══════════════
+Currency Columns:
+  - chiffre_affaire: $ #,##0.00
+  - prix_achat, prix_vente: $ #,##0.00
+  
+Percentage Columns:
+  - taux_marge, taux_remise: 0.00%
+  
+Whole Numbers:
+  - quantite_vendue, nombre_ventes: #,##0
+
+
+/*******************************************************************************
+ * PERFORMANCE OPTIMIZATIONS
+ ******************************************************************************/
+
+1. AGGREGATION TABLES:
+   - Fact_Daily_Sales automatically used for summary visuals
+   - Reduces query time from seconds to milliseconds
+
+2. COLUMN INDEXING:
+   - All Primary Keys (automatic)
+   - All Foreign Keys in fact tables
+   - Date columns
+   - Frequently filtered columns (status, category, region)
+
+3. RELATIONSHIP DIRECTION:
+   - Single direction (Dimension → Fact)
+   - Bi-directional ONLY if absolutely necessary
+
+4. CALCULATED COLUMNS vs MEASURES:
+   - Use MEASURES when possible (computed at query time)
+   - Calculated columns increase model size
+
+5. DATA TYPES:
+   - Use smallest appropriate type
+   - INT instead of BIGINT where possible
+   - Avoid TEXT for lookup codes (use INT with lookup)
+
+
+/*******************************************************************************
+ * BUSINESS INTELLIGENCE MODULES MAPPING
+ ******************************************************************************/
+
+MODULE 1: EXECUTIVE DASHBOARD
+══════════════════════════════
+Tables: Fact_Daily_Sales, Dim_Temps, Dim_Canal, Dim_Region
+KPIs: Total Revenue, Orders, Profit Margin, AOV, Growth %
+Visuals: Cards, Line Charts, Map, Donut Chart
+
+MODULE 2: SALES ANALYSIS
+═════════════════════════
+Tables: Fact_Vente_Enhanced, Dim_Produit, Dim_Canal, Dim_Temps
+KPIs: Revenue by Product/Channel, Sales Trends, Discounts
+Visuals: Waterfall, Bar Charts, Matrix, Scatter Plot
+
+MODULE 3: CUSTOMER ANALYTICS
+═════════════════════════════
+Tables: Fact_Vente_Enhanced, Dim_Client, Dim_Customer_Segment, Dim_Region
+KPIs: Customer Count, CLV, Retention Rate, Acquisition Cost
+Visuals: Treemap, Funnel, Cohort Matrix, Scatter Plot
+
+MODULE 4: LOGISTICS & OPERATIONS
+═════════════════════════════════
+Tables: Fact_Livraison_Enhanced, Dim_Livraison, Dim_Order_Status, Dim_Region
+KPIs: On-Time %, Avg Delivery Time, Late Deliveries, Shipping Cost
+Visuals: Gauge, Box Plot, Map, Sankey Diagram
+
+MODULE 5: CUSTOMER SATISFACTION
+════════════════════════════════
+Tables: Fact_Satisfaction_Enhanced, Dim_Satisfaction_Category, Dim_Produit
+KPIs: NPS, CSAT, Avg Rating, Sentiment %
+Visuals: Gauge, Donut Chart, Matrix, Line Chart
+
+
+/*******************************************************************************
+ * END OF SCHEMA DIAGRAM
+ ******************************************************************************/
+
+Generated: January 5, 2026
+Architecture: Star Schema with Snowflake Elements
+Target Platform: Power BI Desktop / Service
+Total Tables: 14 (9 Dimensions + 4 Facts + 1 Reference)
+Total Relationships: 25+
+Estimated Model Size: ~500MB (uncompressed)
+Recommended Refresh: Daily at off-peak hours

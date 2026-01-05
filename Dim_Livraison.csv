@@ -1,0 +1,26 @@
+id_livraison,mode_livraison,type_livraison
+1,Standard,Domicile
+2,Standard,Point Relais
+3,Standard,Magasin
+4,Standard,Bureau
+5,Standard,Consigne
+6,Express,Domicile
+7,Express,Point Relais
+8,Express,Magasin
+9,Express,Bureau
+10,Express,Consigne
+11,Economy,Domicile
+12,Economy,Point Relais
+13,Economy,Magasin
+14,Economy,Bureau
+15,Economy,Consigne
+16,Same Day,Domicile
+17,Same Day,Point Relais
+18,Same Day,Magasin
+19,Same Day,Bureau
+20,Same Day,Consigne
+21,Next Day,Domicile
+22,Next Day,Point Relais
+23,Next Day,Magasin
+24,Next Day,Bureau
+25,Next Day,Consigne
