@@ -1,0 +1,3001 @@
+﻿id,nom_segment,type_segment,score_rfm,score_recence,score_frequence,score_montant,valeur_vie_client
+1,At Risk,Low,232,2,3,2,22260
+2,Hibernating,Low,224,2,2,4,22880
+3,About To Sleep,Low,322,3,2,2,19200
+4,Need Attention,Medium,342,3,4,2,30160
+5,Promising,Medium,525,5,2,5,37800
+6,Promising,Medium,425,4,2,5,27540
+7,Lost,Medium,432,4,3,2,27500
+8,Need Attention,Medium,335,3,3,5,28000
+9,Hibernating,Low,222,2,2,2,19980
+10,Promising,Low,412,4,1,2,21660
+11,Loyal Customers,Premium,455,4,5,5,43000
+12,Promising,Low,411,4,1,1,14100
+13,At Risk,Low,242,2,4,2,20160
+14,Champions,Premium,555,5,5,5,47700
+15,Lost,Low,133,1,3,3,18860
+16,Lost,Low,123,1,2,3,21800
+17,Need Attention,Medium,354,3,5,4,33670
+18,Hibernating,Low,224,2,2,4,22100
+19,Lost,Low,112,1,1,2,14430
+20,Promising,Medium,425,4,2,5,32300
+21,At Risk,Medium,252,2,5,2,31320
+22,Loyal Customers,Premium,454,4,5,4,36270
+23,Lost,Low,113,1,1,3,19550
+24,Need Attention,Medium,343,3,4,3,27900
+25,New Customers,Medium,522,5,2,2,19440
+26,About To Sleep,Low,314,3,1,4,20250
+27,Lost,Medium,451,4,5,1,31860
+28,About To Sleep,Low,311,3,1,1,13520
+29,Need Attention,Medium,353,3,5,3,29370
+30,At Risk,Low,251,2,5,1,23460
+31,Lost,Low,121,1,2,1,10680
+32,Lost,Medium,531,5,3,1,25990
+33,Lost,Low,123,1,2,3,20600
+34,Hibernating,Low,212,2,1,2,15900
+35,Lost,Low,111,1,1,1,7650
+36,Cant Lose Them,Low,142,1,4,2,22440
+37,Need Attention,Medium,344,3,4,4,32300
+38,Cant Lose Them,Medium,144,1,4,4,27300
+39,At Risk,Low,251,2,5,1,24840
+40,New Customers,Medium,522,5,2,2,22320
+41,About To Sleep,Low,314,3,1,4,28750
+42,At Risk,Low,242,2,4,2,20160
+43,Promising,Medium,513,5,1,3,28250
+44,Promising,Medium,525,5,2,5,42840
+45,At Risk,Low,232,2,3,2,17850
+46,Lost,Medium,442,4,4,2,24640
+47,Lost,Low,431,4,3,1,19110
+48,Lost,Medium,552,5,5,2,29040
+49,Promising,Low,422,4,2,2,17600
+50,About To Sleep,Medium,315,3,1,5,33640
+51,Hibernating,Low,223,2,2,3,20680
+52,New Customers,Medium,522,5,2,2,27120
+53,Hibernating,Low,222,2,2,2,17100
+54,New Customers,Low,521,5,2,1,16200
+55,Lost,Low,111,1,1,1,7920
+56,New Customers,Medium,522,5,2,2,20640
+57,Promising,Medium,514,5,1,4,33060
+58,At Risk,Low,251,2,5,1,18400
+59,Need Attention,Medium,351,3,5,1,25750
+60,Promising,Low,412,4,1,2,16340
+61,At Risk,Low,231,2,3,1,19210
+62,Lost,Low,133,1,3,3,20700
+63,Lost,Medium,452,4,5,2,36580
+64,Promising,Medium,415,4,1,5,29760
+65,Potential Loyalists,Medium,434,4,3,4,30690
+66,Need Attention,Medium,344,3,4,4,30940
+67,Loyal Customers,Premium,454,4,5,4,37440
+68,About To Sleep,Low,322,3,2,2,20600
+69,Promising,Low,422,4,2,2,22660
+70,Promising,Medium,415,4,1,5,31000
+71,Hibernating,Low,215,2,1,5,30510
+72,About To Sleep,Low,323,3,2,3,22080
+73,Lost,Low,134,1,3,4,21600
+74,Loyal Customers,Premium,454,4,5,4,42900
+75,Lost,Low,431,4,3,1,19110
+76,Hibernating,Low,215,2,1,5,23220
+77,Lost,Low,113,1,1,3,13770
+78,At Risk,Medium,252,2,5,2,23760
+79,Need Attention,Low,332,3,3,2,25760
+80,Hibernating,Low,221,2,2,1,16380
+81,Promising,Medium,525,5,2,5,33120
+82,Lost,Low,121,1,2,1,13920
+83,Promising,Medium,524,5,2,4,30400
+84,Cant Lose Them,Medium,145,1,4,5,30260
+85,Hibernating,Low,212,2,1,2,14250
+86,Need Attention,Medium,342,3,4,2,24960
+87,Hibernating,Low,224,2,2,4,24700
+88,Hibernating,Low,213,2,1,3,18620
+89,Potential Loyalists,Medium,433,4,3,3,32770
+90,At Risk,Low,241,2,4,1,23000
+91,Lost,Low,112,1,1,2,14430
+92,Lost,Low,112,1,1,2,10400
+93,Promising,Medium,524,5,2,4,36480
+94,Promising,Medium,524,5,2,4,31680
+95,Need Attention,Medium,354,3,5,4,37740
+96,At Risk,Medium,253,2,5,3,28520
+97,Hibernating,Low,221,2,2,1,14980
+98,Potential Loyalists,Medium,533,5,3,3,36890
+99,Lost,Medium,531,5,3,1,24840
+100,Need Attention,Medium,344,3,4,4,27200
+101,Potential Loyalists,Medium,433,4,3,3,29870
+102,Promising,Medium,524,5,2,4,37760
+103,At Risk,Low,232,2,3,2,16800
+104,Promising,Medium,514,5,1,4,23490
+105,At Risk,Medium,235,2,3,5,39270
+106,Need Attention,Medium,353,3,5,3,32670
+107,Cant Lose Them,Low,142,1,4,2,22440
+108,Lost,Low,111,1,1,1,10080
+109,Cant Lose Them,Low,151,1,5,1,22470
+110,Loyal Customers,Premium,454,4,5,4,31980
+111,Promising,Low,411,4,1,1,17850
+112,At Risk,Low,242,2,4,2,19200
+113,Promising,Medium,423,4,2,3,21060
+114,Potential Loyalists,Medium,533,5,3,3,34410
+115,Lost,Low,113,1,1,3,19380
+116,Lost,Medium,542,5,4,2,25500
+117,Cant Lose Them,Low,143,1,4,3,24180
+118,At Risk,Low,251,2,5,1,25760
+119,Promising,Medium,514,5,1,4,23490
+120,At Risk,Medium,255,2,5,5,34710
+121,Lost,Low,132,1,3,2,15200
+122,Hibernating,Low,222,2,2,2,20880
+123,Promising,Medium,513,5,1,3,29750
+124,Potential Loyalists,Medium,435,4,3,5,42550
+125,Hibernating,Low,215,2,1,5,31590
+126,Need Attention,Medium,333,3,3,3,31590
+127,Promising,Medium,515,5,1,5,30690
+128,Lost,Medium,452,4,5,2,24800
+129,Potential Loyalists,Premium,553,5,5,3,34780
+130,Potential Loyalists,Medium,543,5,4,3,28220
+131,Cant Lose Them,Medium,153,1,5,3,27550
+132,Promising,Medium,425,4,2,5,35700
+133,At Risk,Low,242,2,4,2,22320
+134,Lost,Low,112,1,1,2,14300
+135,Hibernating,Low,224,2,2,4,24440
+136,At Risk,Medium,234,2,3,4,27260
+137,Hibernating,Low,212,2,1,2,15900
+138,Lost,Low,115,1,1,5,28500
+139,At Risk,Low,231,2,3,1,18530
+140,Cant Lose Them,Medium,154,1,5,4,31350
+141,Champions,Premium,555,5,5,5,36450
+142,Lost,Medium,451,4,5,1,25920
+143,Potential Loyalists,Medium,533,5,3,3,25730
+144,Potential Loyalists,Premium,553,5,5,3,42550
+145,Lost,Medium,551,5,5,1,33930
+146,About To Sleep,Low,313,3,1,3,24780
+147,Promising,Medium,424,4,2,4,30300
+148,Promising,Medium,514,5,1,4,27260
+149,At Risk,Medium,244,2,4,4,32640
+150,Loyal Customers,Premium,554,5,5,4,44280
+151,Lost,Low,121,1,2,1,9960
+152,Lost,Low,114,1,1,4,17640
+153,Promising,Low,421,4,2,1,15120
+154,Potential Loyalists,Premium,553,5,5,3,29600
+155,Lost,Low,131,1,3,1,17550
+156,At Risk,Low,251,2,5,1,20240
+157,Potential Loyalists,Medium,433,4,3,3,25810
+158,Lost,Medium,452,4,5,2,30380
+159,Potential Loyalists,Medium,434,4,3,4,32670
+160,Need Attention,Medium,343,3,4,3,28800
+161,Need Attention,Medium,334,3,3,4,34720
+162,Need Attention,Low,341,3,4,1,21560
+163,Hibernating,Low,215,2,1,5,23760
+164,About To Sleep,Low,314,3,1,4,29250
+165,New Customers,Medium,522,5,2,2,25200
+166,Hibernating,Low,215,2,1,5,28080
+167,Cant Lose Them,Low,141,1,4,1,21240
+168,At Risk,Medium,252,2,5,2,26730
+169,Need Attention,Medium,354,3,5,4,29600
+170,Need Attention,Medium,353,3,5,3,28050
+171,Need Attention,Medium,335,3,3,5,32900
+172,About To Sleep,Low,314,3,1,4,23250
+173,About To Sleep,Low,313,3,1,3,22680
+174,About To Sleep,Medium,315,3,1,5,32190
+175,Cant Lose Them,Low,143,1,4,3,24700
+176,Need Attention,Medium,343,3,4,3,27900
+177,Hibernating,Low,214,2,1,4,27370
+178,Need Attention,Medium,351,3,5,1,21000
+179,Need Attention,Medium,335,3,3,5,30800
+180,Lost,Medium,532,5,3,2,24030
+181,About To Sleep,Medium,325,3,2,5,29120
+182,Lost,Low,123,1,2,3,21800
+183,Lost,Medium,442,4,4,2,25760
+184,Lost,Medium,541,5,4,1,23660
+185,Need Attention,Premium,355,3,5,5,41410
+186,Lost,Low,121,1,2,1,13800
+187,Lost,Medium,551,5,5,1,27260
+188,Potential Loyalists,Medium,443,4,4,3,29760
+189,Promising,Medium,524,5,2,4,30080
+190,New Customers,Medium,522,5,2,2,28560
+191,Promising,Medium,525,5,2,5,28800
+192,Lost,Low,121,1,2,1,13800
+193,Need Attention,Low,332,3,3,2,21620
+194,About To Sleep,Low,311,3,1,1,13650
+195,Need Attention,Medium,344,3,4,4,27880
+196,About To Sleep,Low,311,3,1,1,11050
+197,Cant Lose Them,Medium,145,1,4,5,39440
+198,Need Attention,Medium,335,3,3,5,30800
+199,Loyal Customers,Premium,554,5,5,4,47150
+200,Potential Loyalists,Premium,535,5,3,5,37830
+201,Promising,Medium,424,4,2,4,24000
+202,Loyal Customers,Premium,455,4,5,5,42570
+203,About To Sleep,Medium,315,3,1,5,30450
+204,New Customers,Medium,522,5,2,2,26160
+205,Cant Lose Them,Low,143,1,4,3,28600
+206,Lost,Medium,552,5,5,2,33330
+207,Need Attention,Medium,352,3,5,2,31900
+208,Promising,Low,413,4,1,3,24380
+209,Lost,Low,431,4,3,1,18690
+210,At Risk,Medium,234,2,3,4,33350
+211,About To Sleep,Medium,315,3,1,5,29870
+212,Lost,Low,112,1,1,2,11180
+213,At Risk,Medium,254,2,5,4,30100
+214,Need Attention,Premium,355,3,5,5,34440
+215,Promising,Medium,524,5,2,4,34880
+216,About To Sleep,Medium,324,3,2,4,28840
+217,Need Attention,Medium,352,3,5,2,33060
+218,Hibernating,Medium,225,2,2,5,35100
+219,Cant Lose Them,Low,152,1,5,2,24500
+220,Lost,Low,134,1,3,4,28080
+221,Promising,Medium,424,4,2,4,26400
+222,Lost,Low,132,1,3,2,18050
+223,At Risk,Medium,235,2,3,5,29700
+224,Potential Loyalists,Medium,543,5,4,3,36720
+225,Lost,Low,431,4,3,1,24150
+226,At Risk,Medium,243,2,4,3,30800
+227,Lost,Low,121,1,2,1,12960
+228,Need Attention,Medium,344,3,4,4,29240
+229,Hibernating,Low,212,2,1,2,16800
+230,Promising,Medium,423,4,2,3,30420
+231,Lost,Low,122,1,2,2,15840
+232,Lost,Medium,441,4,4,1,27360
+233,Potential Loyalists,Premium,553,5,5,3,42920
+234,Hibernating,Low,221,2,2,1,15400
+235,Lost,Medium,442,4,4,2,30520
+236,Lost,Low,131,1,3,1,17850
+237,Hibernating,Low,221,2,2,1,16100
+238,Need Attention,Low,332,3,3,2,20930
+239,Lost,Low,123,1,2,3,21800
+240,About To Sleep,Medium,325,3,2,5,26560
+241,Cant Lose Them,Medium,153,1,5,3,32480
+242,Hibernating,Low,213,2,1,3,17290
+243,Promising,Medium,515,5,1,5,30360
+244,Hibernating,Low,211,2,1,1,11550
+245,At Risk,Medium,243,2,4,3,28840
+246,At Risk,Low,241,2,4,1,18400
+247,About To Sleep,Low,311,3,1,1,14820
+248,Loyal Customers,Premium,545,5,4,5,34860
+249,Lost,Low,125,1,2,5,30520
+250,Promising,Medium,515,5,1,5,28710
+251,Cant Lose Them,Medium,155,1,5,5,37000
+252,Loyal Customers,Premium,544,5,4,4,38000
+253,Loyal Customers,Premium,545,5,4,5,39480
+254,Promising,Low,413,4,1,3,25990
+255,Hibernating,Low,222,2,2,2,15840
+256,Lost,Low,132,1,3,2,22610
+257,Need Attention,Medium,335,3,3,5,41300
+258,Hibernating,Low,221,2,2,1,16380
+259,New Customers,Low,512,5,1,2,21630
+260,Lost,Medium,552,5,5,2,31680
+261,Lost,Low,124,1,2,4,28080
+262,Lost,Low,431,4,3,1,21630
+263,Lost,Medium,432,4,3,2,22500
+264,Loyal Customers,Premium,454,4,5,4,32760
+265,Need Attention,Medium,342,3,4,2,27560
+266,Promising,Medium,513,5,1,3,23750
+267,Cant Lose Them,Low,142,1,4,2,22880
+268,Potential Loyalists,Medium,533,5,3,3,31620
+269,About To Sleep,Low,314,3,1,4,29000
+270,Promising,Medium,414,4,1,4,23760
+271,Cant Lose Them,Medium,155,1,5,5,40330
+272,At Risk,Medium,245,2,4,5,40320
+273,Lost,Medium,552,5,5,2,30360
+274,Promising,Medium,513,5,1,3,22500
+275,Hibernating,Low,223,2,2,3,18260
+276,Loyal Customers,Premium,455,4,5,5,35260
+277,At Risk,Low,233,2,3,3,28750
+278,Need Attention,Premium,355,3,5,5,44280
+279,About To Sleep,Medium,324,3,2,4,25200
+280,About To Sleep,Low,311,3,1,1,15210
+281,Lost,Medium,551,5,5,1,24360
+282,Promising,Low,411,4,1,1,12300
+283,Promising,Low,422,4,2,2,20900
+284,Lost,Low,114,1,1,4,20790
+285,About To Sleep,Low,322,3,2,2,16600
+286,Lost,Medium,441,4,4,1,28560
+287,At Risk,Medium,252,2,5,2,23760
+288,Cant Lose Them,Medium,144,1,4,4,31200
+289,Lost,Low,124,1,2,4,24720
+290,Lost,Low,115,1,1,5,20750
+291,Loyal Customers,Premium,554,5,5,4,43050
+292,Hibernating,Low,223,2,2,3,24420
+293,Cant Lose Them,Low,143,1,4,3,22880
+294,Lost,Medium,135,1,3,5,32860
+295,About To Sleep,Medium,325,3,2,5,29760
+296,Lost,Medium,135,1,3,5,28830
+297,Lost,Medium,442,4,4,2,31080
+298,Potential Loyalists,Medium,443,4,4,3,28480
+299,At Risk,Low,251,2,5,1,20700
+300,Potential Loyalists,Medium,533,5,3,3,33480
+301,Need Attention,Medium,344,3,4,4,29920
+302,Lost,Medium,442,4,4,2,28560
+303,Promising,Medium,515,5,1,5,27390
+304,At Risk,Medium,245,2,4,5,31680
+305,At Risk,Low,241,2,4,1,22400
+306,Lost,Medium,552,5,5,2,38610
+307,Lost,Medium,551,5,5,1,34220
+308,Promising,Low,421,4,2,1,17100
+309,Hibernating,Low,221,2,2,1,16520
+310,At Risk,Medium,244,2,4,4,32640
+311,Promising,Medium,525,5,2,5,32040
+312,At Risk,Medium,253,2,5,3,35340
+313,Lost,Low,123,1,2,3,22000
+314,At Risk,Medium,252,2,5,2,28890
+315,New Customers,Low,521,5,2,1,23400
+316,About To Sleep,Low,312,3,1,2,16660
+317,At Risk,Medium,253,2,5,3,35960
+318,Lost,Low,123,1,2,3,18000
+319,Promising,Low,413,4,1,3,19320
+320,About To Sleep,Medium,324,3,2,4,26040
+321,Cant Lose Them,Low,142,1,4,2,24860
+322,Need Attention,Medium,353,3,5,3,29370
+323,About To Sleep,Low,323,3,2,3,26160
+324,Need Attention,Low,332,3,3,2,24840
+325,Loyal Customers,Premium,554,5,5,4,40180
+326,About To Sleep,Low,314,3,1,4,23750
+327,Loyal Customers,Premium,455,4,5,5,35260
+328,Loyal Customers,Premium,455,4,5,5,34830
+329,Potential Loyalists,Medium,534,5,3,4,38850
+330,New Customers,Low,521,5,2,1,23200
+331,About To Sleep,Low,322,3,2,2,21400
+332,Lost,Medium,552,5,5,2,28380
+333,Lost,Low,131,1,3,1,14550
+334,Cant Lose Them,Low,141,1,4,1,20340
+335,Promising,Medium,513,5,1,3,21250
+336,Potential Loyalists,Premium,535,5,3,5,43290
+337,Need Attention,Medium,342,3,4,2,27560
+338,Lost,Medium,135,1,3,5,28520
+339,Lost,Medium,452,4,5,2,25420
+340,Hibernating,Low,222,2,2,2,14400
+341,At Risk,Medium,244,2,4,4,37440
+342,Cant Lose Them,Low,152,1,5,2,22000
+343,At Risk,Medium,244,2,4,4,31360
+344,Cant Lose Them,Low,141,1,4,1,19980
+345,Potential Loyalists,Medium,443,4,4,3,31040
+346,Lost,Low,131,1,3,1,16500
+347,Need Attention,Medium,352,3,5,2,31900
+348,Loyal Customers,Medium,444,4,4,4,40320
+349,Potential Loyalists,Medium,533,5,3,3,26660
+350,At Risk,Medium,243,2,4,3,28560
+351,Potential Loyalists,Medium,435,4,3,5,34040
+352,Lost,Low,125,1,2,5,26320
+353,Promising,Low,421,4,2,1,19440
+354,Need Attention,Medium,344,3,4,4,37060
+355,Lost,Medium,441,4,4,1,22800
+356,Need Attention,Medium,342,3,4,2,25740
+357,Promising,Medium,424,4,2,4,34200
+358,Lost,Low,133,1,3,3,25760
+359,Lost,Low,131,1,3,1,12300
+360,Lost,Medium,135,1,3,5,28520
+361,About To Sleep,Low,321,3,2,1,14400
+362,Lost,Low,123,1,2,3,23400
+363,Need Attention,Medium,351,3,5,1,27250
+364,Promising,Medium,414,4,1,4,26730
+365,Lost,Low,125,1,2,5,26040
+366,Lost,Low,115,1,1,5,29000
+367,Potential Loyalists,Premium,535,5,3,5,43290
+368,Lost,Medium,541,5,4,1,30680
+369,Need Attention,Low,341,3,4,1,17820
+370,Need Attention,Medium,342,3,4,2,23660
+371,Potential Loyalists,Premium,553,5,5,3,30340
+372,Cant Lose Them,Low,143,1,4,3,24180
+373,Potential Loyalists,Medium,433,4,3,3,29290
+374,Need Attention,Medium,342,3,4,2,30420
+375,Need Attention,Medium,353,3,5,3,29700
+376,Lost,Low,113,1,1,3,19210
+377,Loyal Customers,Premium,554,5,5,4,41820
+378,Promising,Low,413,4,1,3,19090
+379,Promising,Medium,525,5,2,5,33480
+380,Cant Lose Them,Medium,153,1,5,3,27260
+381,Hibernating,Low,222,2,2,2,19980
+382,Need Attention,Low,341,3,4,1,21560
+383,Promising,Medium,515,5,1,5,30690
+384,Lost,Medium,452,4,5,2,27590
+385,Lost,Low,112,1,1,2,13910
+386,Promising,Medium,523,5,2,3,30800
+387,Hibernating,Medium,225,2,2,5,30000
+388,About To Sleep,Low,321,3,2,1,14240
+389,Lost,Medium,135,1,3,5,30690
+390,Cant Lose Them,Low,141,1,4,1,21240
+391,Lost,Low,431,4,3,1,18690
+392,Lost,Low,111,1,1,1,8010
+393,Lost,Medium,552,5,5,2,33660
+394,Lost,Low,131,1,3,1,12750
+395,Promising,Medium,425,4,2,5,40460
+396,Potential Loyalists,Medium,435,4,3,5,34410
+397,Loyal Customers,Premium,445,4,4,5,42000
+398,Hibernating,Low,221,2,2,1,11200
+399,At Risk,Medium,234,2,3,4,27840
+400,Lost,Medium,441,4,4,1,23040
+401,Lost,Medium,551,5,5,1,29580
+402,Need Attention,Low,331,3,3,1,19380
+403,Potential Loyalists,Medium,435,4,3,5,35520
+404,Cant Lose Them,Medium,144,1,4,4,35700
+405,Hibernating,Low,222,2,2,2,16380
+406,Potential Loyalists,Medium,453,4,5,3,36750
+407,Hibernating,Low,222,2,2,2,19260
+408,At Risk,Medium,254,2,5,4,35350
+409,At Risk,Low,233,2,3,3,26500
+410,Cant Lose Them,Medium,145,1,4,5,29920
+411,Need Attention,Medium,335,3,3,5,31500
+412,Need Attention,Low,331,3,3,1,22420
+413,At Risk,Low,233,2,3,3,20250
+414,Need Attention,Medium,345,3,4,5,41040
+415,About To Sleep,Low,321,3,2,1,19040
+416,Lost,Low,132,1,3,2,22610
+417,Lost,Medium,551,5,5,1,27550
+418,Promising,Medium,425,4,2,5,31280
+419,Cant Lose Them,Medium,155,1,5,5,41440
+420,Potential Loyalists,Medium,433,4,3,3,32480
+421,Promising,Low,413,4,1,3,18860
+422,About To Sleep,Low,311,3,1,1,14690
+423,At Risk,Medium,243,2,4,3,26600
+424,Promising,Low,421,4,2,1,19440
+425,New Customers,Medium,522,5,2,2,19200
+426,Hibernating,Low,211,2,1,1,11110
+427,Lost,Low,131,1,3,1,13200
+428,About To Sleep,Low,323,3,2,3,20160
+429,Cant Lose Them,Medium,153,1,5,3,32480
+430,Lost,Low,132,1,3,2,18620
+431,About To Sleep,Low,322,3,2,2,21000
+432,About To Sleep,Low,311,3,1,1,13130
+433,Lost,Medium,542,5,4,2,35400
+434,Promising,Low,411,4,1,1,12600
+435,Cant Lose Them,Low,143,1,4,3,28340
+436,Lost,Low,112,1,1,2,15470
+437,Need Attention,Low,332,3,3,2,27140
+438,Lost,Medium,552,5,5,2,36960
+439,At Risk,Low,231,2,3,1,19890
+440,At Risk,Medium,245,2,4,5,39600
+441,Promising,Medium,523,5,2,3,22960
+442,At Risk,Medium,253,2,5,3,36890
+443,Promising,Low,421,4,2,1,14400
+444,Lost,Low,111,1,1,1,8640
+445,About To Sleep,Low,311,3,1,1,13910
+446,Loyal Customers,Premium,455,4,5,5,45580
+447,Potential Loyalists,Medium,434,4,3,4,33330
+448,Lost,Medium,531,5,3,1,26220
+449,At Risk,Medium,243,2,4,3,33320
+450,Need Attention,Medium,334,3,3,4,32860
+451,Lost,Low,111,1,1,1,9270
+452,Hibernating,Low,224,2,2,4,23140
+453,Hibernating,Low,222,2,2,2,16200
+454,Potential Loyalists,Medium,433,4,3,3,30740
+455,Cant Lose Them,Medium,144,1,4,4,26400
+456,About To Sleep,Medium,325,3,2,5,35200
+457,Potential Loyalists,Medium,543,5,4,3,40120
+458,Need Attention,Low,331,3,3,1,19380
+459,Loyal Customers,Premium,554,5,5,4,48380
+460,Promising,Medium,513,5,1,3,27750
+461,Promising,Medium,414,4,1,4,23490
+462,Need Attention,Low,341,3,4,1,24200
+463,Lost,Low,112,1,1,2,10400
+464,Need Attention,Medium,354,3,5,4,35890
+465,Potential Loyalists,Premium,553,5,5,3,37740
+466,Need Attention,Medium,342,3,4,2,28860
+467,Cant Lose Them,Low,142,1,4,2,17820
+468,Cant Lose Them,Medium,145,1,4,5,37740
+469,Lost,Low,112,1,1,2,14690
+470,Promising,Medium,524,5,2,4,37440
+471,Promising,Medium,414,4,1,4,27000
+472,At Risk,Medium,244,2,4,4,30080
+473,Promising,Medium,523,5,2,3,28560
+474,Need Attention,Medium,335,3,3,5,36050
+475,Promising,Medium,524,5,2,4,31680
+476,At Risk,Medium,234,2,3,4,34220
+477,Lost,Medium,551,5,5,1,31320
+478,Need Attention,Medium,352,3,5,2,29290
+479,At Risk,Medium,253,2,5,3,33480
+480,Hibernating,Medium,225,2,2,5,30300
+481,Lost,Medium,135,1,3,5,34410
+482,Champions,Premium,555,5,5,5,40500
+483,At Risk,Low,241,2,4,1,17000
+484,New Customers,Low,521,5,2,1,20000
+485,At Risk,Low,241,2,4,1,17200
+486,Lost,Medium,552,5,5,2,30030
+487,At Risk,Medium,245,2,4,5,33120
+488,Lost,Low,114,1,1,4,22680
+489,Promising,Medium,515,5,1,5,36300
+490,Need Attention,Low,331,3,3,1,19000
+491,Lost,Medium,451,4,5,1,28350
+492,Lost,Low,122,1,2,2,14880
+493,About To Sleep,Low,321,3,2,1,16480
+494,Hibernating,Low,223,2,2,3,25740
+495,Lost,Low,132,1,3,2,15960
+496,Hibernating,Low,224,2,2,4,29640
+497,Hibernating,Low,223,2,2,3,24420
+498,Need Attention,Medium,351,3,5,1,24250
+499,At Risk,Medium,244,2,4,4,32640
+500,At Risk,Medium,244,2,4,4,29120
+501,About To Sleep,Low,322,3,2,2,18200
+502,About To Sleep,Medium,325,3,2,5,34880
+503,Cant Lose Them,Low,142,1,4,2,20020
+504,Promising,Low,411,4,1,1,17850
+505,Need Attention,Medium,333,3,3,3,24300
+506,At Risk,Low,241,2,4,1,20800
+507,Promising,Low,412,4,1,2,17100
+508,Lost,Low,431,4,3,1,22470
+509,At Risk,Low,233,2,3,3,20750
+510,Loyal Customers,Medium,444,4,4,4,38520
+511,Lost,Low,121,1,2,1,13560
+512,Promising,Low,411,4,1,1,13800
+513,Promising,Low,421,4,2,1,15840
+514,Lost,Medium,451,4,5,1,26730
+515,Lost,Low,125,1,2,5,33320
+516,Lost,Low,115,1,1,5,28750
+517,Need Attention,Medium,333,3,3,3,24570
+518,Hibernating,Low,223,2,2,3,22660
+519,About To Sleep,Low,323,3,2,3,19200
+520,Need Attention,Low,341,3,4,1,23540
+521,About To Sleep,Medium,325,3,2,5,31040
+522,At Risk,Low,251,2,5,1,19780
+523,Lost,Low,134,1,3,4,27540
+524,Lost,Medium,531,5,3,1,23230
+525,Cant Lose Them,Medium,153,1,5,3,33060
+526,Champions,Premium,555,5,5,5,53100
+527,Lost,Low,431,4,3,1,17220
+528,New Customers,Low,511,5,1,1,20230
+529,Hibernating,Low,212,2,1,2,16050
+530,Lost,Low,134,1,3,4,22410
+531,Promising,Low,421,4,2,1,16560
+532,Loyal Customers,Premium,554,5,5,4,36080
+533,Lost,Medium,441,4,4,1,28560
+534,Loyal Customers,Premium,455,4,5,5,36120
+535,Need Attention,Low,331,3,3,1,19760
+536,Promising,Medium,423,4,2,3,21060
+537,Promising,Medium,423,4,2,3,25220
+538,Loyal Customers,Premium,545,5,4,5,46620
+539,Hibernating,Low,215,2,1,5,31590
+540,About To Sleep,Medium,324,3,2,4,32480
+541,At Risk,Low,251,2,5,1,21390
+542,Loyal Customers,Medium,444,4,4,4,32760
+543,At Risk,Low,233,2,3,3,24500
+544,At Risk,Medium,255,2,5,5,33150
+545,Lost,Low,112,1,1,2,11310
+546,Lost,Medium,135,1,3,5,27280
+547,Potential Loyalists,Medium,443,4,4,3,38080
+548,Cant Lose Them,Low,142,1,4,2,22000
+549,Promising,Medium,525,5,2,5,42840
+550,Need Attention,Premium,355,3,5,5,41410
+551,At Risk,Medium,252,2,5,2,22680
+552,Loyal Customers,Premium,454,4,5,4,36660
+553,Cant Lose Them,Medium,154,1,5,4,28710
+554,Lost,Low,131,1,3,1,17400
+555,Lost,Medium,531,5,3,1,22310
+556,New Customers,Low,521,5,2,1,21400
+557,Lost,Low,431,4,3,1,24990
+558,Need Attention,Medium,345,3,4,5,32300
+559,Need Attention,Low,332,3,3,2,24380
+560,Promising,Medium,423,4,2,3,26520
+561,Lost,Medium,452,4,5,2,28210
+562,About To Sleep,Medium,315,3,1,5,30450
+563,New Customers,Low,521,5,2,1,18800
+564,Loyal Customers,Medium,444,4,4,4,33120
+565,Potential Loyalists,Premium,535,5,3,5,31200
+566,Lost,Low,133,1,3,3,23000
+567,Potential Loyalists,Medium,453,4,5,3,38850
+568,About To Sleep,Low,314,3,1,4,24250
+569,Lost,Medium,432,4,3,2,21750
+570,Hibernating,Low,222,2,2,2,15120
+571,Promising,Medium,513,5,1,3,20250
+572,Promising,Medium,415,4,1,5,25730
+573,Lost,Low,131,1,3,1,12600
+574,At Risk,Medium,255,2,5,5,35880
+575,Cant Lose Them,Low,142,1,4,2,19800
+576,At Risk,Medium,252,2,5,2,23490
+577,Potential Loyalists,Premium,553,5,5,3,41070
+578,Promising,Medium,523,5,2,3,26040
+579,Potential Loyalists,Premium,535,5,3,5,39390
+580,Lost,Low,111,1,1,1,8640
+581,Hibernating,Low,223,2,2,3,19140
+582,Loyal Customers,Premium,544,5,4,4,39520
+583,Loyal Customers,Medium,444,4,4,4,33840
+584,Lost,Low,131,1,3,1,13800
+585,Lost,Low,115,1,1,5,26000
+586,Cant Lose Them,Medium,155,1,5,5,42550
+587,Lost,Low,112,1,1,2,11050
+588,Promising,Low,421,4,2,1,20700
+589,Potential Loyalists,Medium,453,4,5,3,39550
+590,Promising,Low,412,4,1,2,17670
+591,At Risk,Low,251,2,5,1,25070
+592,Cant Lose Them,Medium,154,1,5,4,35970
+593,New Customers,Low,521,5,2,1,18600
+594,New Customers,Medium,522,5,2,2,25440
+595,At Risk,Medium,243,2,4,3,28840
+596,About To Sleep,Low,311,3,1,1,15210
+597,Need Attention,Medium,333,3,3,3,29430
+598,Need Attention,Medium,343,3,4,3,33900
+599,Lost,Medium,532,5,3,2,25380
+600,Cant Lose Them,Medium,153,1,5,3,29290
+601,Lost,Low,134,1,3,4,27000
+602,Lost,Low,112,1,1,2,15470
+603,Promising,Medium,515,5,1,5,31020
+604,Lost,Low,114,1,1,4,18690
+605,Hibernating,Low,211,2,1,1,11220
+606,At Risk,Medium,244,2,4,4,31040
+607,Lost,Medium,541,5,4,1,27040
+608,Promising,Medium,525,5,2,5,40320
+609,Cant Lose Them,Medium,145,1,4,5,27200
+610,Need Attention,Medium,343,3,4,3,30000
+611,Cant Lose Them,Low,151,1,5,1,17220
+612,Need Attention,Medium,352,3,5,2,30450
+613,Need Attention,Premium,355,3,5,5,39770
+614,New Customers,Low,511,5,1,1,15640
+615,Potential Loyalists,Medium,543,5,4,3,40120
+616,Champions,Premium,555,5,5,5,37800
+617,Hibernating,Low,213,2,1,3,18240
+618,At Risk,Medium,235,2,3,5,39270
+619,About To Sleep,Medium,315,3,1,5,28420
+620,Lost,Medium,135,1,3,5,33790
+621,Lost,Medium,432,4,3,2,25000
+622,Hibernating,Low,213,2,1,3,18620
+623,Lost,Low,125,1,2,5,23520
+624,Need Attention,Medium,344,3,4,4,28220
+625,Lost,Medium,531,5,3,1,24840
+626,About To Sleep,Low,312,3,1,2,17000
+627,Promising,Medium,513,5,1,3,27250
+628,Lost,Low,123,1,2,3,18800
+629,New Customers,Low,512,5,1,2,23310
+630,Promising,Low,422,4,2,2,24640
+631,Potential Loyalists,Medium,435,4,3,5,42550
+632,Hibernating,Low,222,2,2,2,18180
+633,Hibernating,Medium,225,2,2,5,25200
+634,Promising,Low,412,4,1,2,16910
+635,About To Sleep,Low,311,3,1,1,13910
+636,Promising,Low,411,4,1,1,12600
+637,Cant Lose Them,Medium,144,1,4,4,25500
+638,Potential Loyalists,Medium,534,5,3,4,37800
+639,Hibernating,Low,222,2,2,2,17820
+640,Promising,Medium,415,4,1,5,33170
+641,Potential Loyalists,Medium,453,4,5,3,35000
+642,About To Sleep,Low,314,3,1,4,21500
+643,New Customers,Low,511,5,1,1,13940
+644,Need Attention,Medium,342,3,4,2,22620
+645,Need Attention,Medium,333,3,3,3,24840
+646,At Risk,Low,232,2,3,2,23100
+647,Lost,Medium,451,4,5,1,29700
+648,Potential Loyalists,Medium,543,5,4,3,27880
+649,Lost,Medium,552,5,5,2,28380
+650,Potential Loyalists,Premium,553,5,5,3,44030
+651,About To Sleep,Medium,315,3,1,5,24070
+652,Loyal Customers,Medium,444,4,4,4,37800
+653,Lost,Low,134,1,3,4,28620
+654,About To Sleep,Low,312,3,1,2,15300
+655,Need Attention,Medium,352,3,5,2,29870
+656,Lost,Low,115,1,1,5,25750
+657,About To Sleep,Medium,324,3,2,4,23520
+658,Potential Loyalists,Medium,453,4,5,3,31500
+659,Lost,Low,123,1,2,3,21800
+660,Hibernating,Low,211,2,1,1,11000
+661,At Risk,Low,251,2,5,1,26450
+662,Promising,Medium,515,5,1,5,29040
+663,Promising,Medium,424,4,2,4,34500
+664,Hibernating,Low,211,2,1,1,10230
+665,Hibernating,Low,215,2,1,5,21600
+666,Need Attention,Low,331,3,3,1,16910
+667,Promising,Medium,523,5,2,3,24360
+668,Cant Lose Them,Low,141,1,4,1,14940
+669,Lost,Low,431,4,3,1,20580
+670,Loyal Customers,Premium,455,4,5,5,49880
+671,Promising,Medium,514,5,1,4,23200
+672,New Customers,Low,521,5,2,1,23600
+673,About To Sleep,Low,313,3,1,3,18900
+674,Hibernating,Low,215,2,1,5,22140
+675,Loyal Customers,Premium,455,4,5,5,36120
+676,Cant Lose Them,Medium,153,1,5,3,33060
+677,Hibernating,Low,213,2,1,3,16150
+678,Hibernating,Low,221,2,2,1,12600
+679,Promising,Low,411,4,1,1,16200
+680,Need Attention,Medium,342,3,4,2,30940
+681,Need Attention,Medium,354,3,5,4,40700
+682,Promising,Low,422,4,2,2,26180
+683,Promising,Medium,424,4,2,4,35400
+684,Hibernating,Medium,225,2,2,5,35700
+685,Lost,Low,123,1,2,3,21400
+686,Promising,Medium,524,5,2,4,30400
+687,Lost,Medium,542,5,4,2,25800
+688,About To Sleep,Low,322,3,2,2,20800
+689,Potential Loyalists,Premium,535,5,3,5,42900
+690,Promising,Medium,523,5,2,3,33040
+691,At Risk,Low,251,2,5,1,19780
+692,Lost,Medium,532,5,3,2,29430
+693,Loyal Customers,Premium,554,5,5,4,40180
+694,Loyal Customers,Premium,454,4,5,4,35100
+695,About To Sleep,Low,322,3,2,2,19000
+696,Lost,Low,123,1,2,3,20000
+697,Promising,Medium,525,5,2,5,41400
+698,New Customers,Low,521,5,2,1,16800
+699,Hibernating,Low,211,2,1,1,11770
+700,Need Attention,Medium,352,3,5,2,26390
+701,Lost,Medium,551,5,5,1,29870
+702,Hibernating,Low,214,2,1,4,24610
+703,At Risk,Low,242,2,4,2,21600
+704,Lost,Low,115,1,1,5,23250
+705,Promising,Medium,514,5,1,4,27840
+706,Need Attention,Medium,335,3,3,5,32550
+707,About To Sleep,Low,312,3,1,2,14450
+708,Hibernating,Low,224,2,2,4,24700
+709,Promising,Medium,414,4,1,4,30780
+710,Cant Lose Them,Medium,154,1,5,4,30030
+711,Hibernating,Low,223,2,2,3,23100
+712,Potential Loyalists,Premium,535,5,3,5,40170
+713,Potential Loyalists,Medium,533,5,3,3,25420
+714,Promising,Medium,423,4,2,3,21840
+715,About To Sleep,Medium,324,3,2,4,26040
+716,Lost,Low,133,1,3,3,21850
+717,Promising,Medium,425,4,2,5,38760
+718,Need Attention,Medium,344,3,4,4,38420
+719,Promising,Low,412,4,1,2,15580
+720,Lost,Low,113,1,1,3,15300
+721,Promising,Medium,515,5,1,5,27060
+722,At Risk,Low,233,2,3,3,25750
+723,Promising,Medium,415,4,1,5,33480
+724,Lost,Medium,532,5,3,2,24300
+725,Cant Lose Them,Medium,153,1,5,3,30740
+726,Lost,Medium,541,5,4,1,28860
+727,Hibernating,Low,213,2,1,3,20520
+728,At Risk,Medium,255,2,5,5,40950
+729,At Risk,Medium,254,2,5,4,34650
+730,Promising,Medium,524,5,2,4,37760
+731,Lost,Medium,432,4,3,2,20750
+732,Promising,Low,412,4,1,2,15770
+733,Promising,Medium,423,4,2,3,27300
+734,Lost,Low,113,1,1,3,13600
+735,At Risk,Medium,253,2,5,3,31000
+736,About To Sleep,Low,311,3,1,1,14820
+737,Lost,Medium,542,5,4,2,33900
+738,Need Attention,Medium,333,3,3,3,28620
+739,Potential Loyalists,Medium,433,4,3,3,31320
+740,Lost,Medium,451,4,5,1,31320
+741,Potential Loyalists,Medium,434,4,3,4,31680
+742,At Risk,Medium,235,2,3,5,37290
+743,At Risk,Medium,254,2,5,4,37100
+744,At Risk,Medium,254,2,5,4,35000
+745,Lost,Medium,452,4,5,2,26040
+746,At Risk,Low,232,2,3,2,19110
+747,Need Attention,Medium,351,3,5,1,25250
+748,About To Sleep,Low,313,3,1,3,17850
+749,Potential Loyalists,Medium,453,4,5,3,35700
+750,Cant Lose Them,Medium,145,1,4,5,40120
+751,Hibernating,Low,222,2,2,2,20520
+752,Lost,Low,131,1,3,1,14400
+753,Need Attention,Medium,354,3,5,4,43290
+754,Lost,Medium,532,5,3,2,31860
+755,Lost,Medium,452,4,5,2,33170
+756,Promising,Medium,523,5,2,3,28000
+757,Lost,Low,113,1,1,3,19890
+758,Potential Loyalists,Premium,553,5,5,3,35520
+759,Hibernating,Low,222,2,2,2,16380
+760,Promising,Medium,415,4,1,5,30070
+761,Potential Loyalists,Medium,435,4,3,5,42920
+762,Lost,Low,133,1,3,3,25530
+763,Promising,Medium,424,4,2,4,26400
+764,Lost,Low,123,1,2,3,18800
+765,Hibernating,Low,214,2,1,4,20010
+766,Cant Lose Them,Medium,153,1,5,3,27840
+767,Cant Lose Them,Medium,144,1,4,4,26700
+768,Lost,Low,121,1,2,1,13920
+769,Need Attention,Low,341,3,4,1,20900
+770,Lost,Medium,551,5,5,1,32770
+771,Need Attention,Medium,354,3,5,4,34780
+772,Lost,Medium,541,5,4,1,29640
+773,About To Sleep,Medium,324,3,2,4,32200
+774,Need Attention,Medium,354,3,5,4,36260
+775,Hibernating,Low,215,2,1,5,27000
+776,Need Attention,Low,341,3,4,1,22660
+777,Hibernating,Low,213,2,1,3,20710
+778,Hibernating,Low,212,2,1,2,17850
+779,At Risk,Low,232,2,3,2,17220
+780,Cant Lose Them,Medium,154,1,5,4,34650
+781,Potential Loyalists,Premium,535,5,3,5,36660
+782,Hibernating,Low,215,2,1,5,27270
+783,Need Attention,Medium,352,3,5,2,27550
+784,Hibernating,Low,214,2,1,4,26680
+785,Lost,Medium,541,5,4,1,27820
+786,Lost,Low,133,1,3,3,27370
+787,Promising,Low,422,4,2,2,23980
+788,Cant Lose Them,Medium,144,1,4,4,24900
+789,Lost,Low,113,1,1,3,16320
+790,At Risk,Low,231,2,3,1,14790
+791,Need Attention,Low,331,3,3,1,22420
+792,Cant Lose Them,Medium,154,1,5,4,29700
+793,Cant Lose Them,Medium,145,1,4,5,31960
+794,Potential Loyalists,Medium,533,5,3,3,36270
+795,Lost,Low,115,1,1,5,21250
+796,Need Attention,Medium,345,3,4,5,30400
+797,Cant Lose Them,Low,152,1,5,2,27000
+798,Loyal Customers,Premium,544,5,4,4,42940
+799,Lost,Medium,432,4,3,2,21250
+800,Cant Lose Them,Medium,154,1,5,4,27390
+801,Lost,Medium,542,5,4,2,24000
+802,Cant Lose Them,Low,151,1,5,1,17430
+803,Promising,Medium,525,5,2,5,36360
+804,Potential Loyalists,Medium,435,4,3,5,30340
+805,Lost,Medium,532,5,3,2,29970
+806,Cant Lose Them,Medium,155,1,5,5,39590
+807,Lost,Medium,451,4,5,1,27540
+808,New Customers,Low,512,5,1,2,17640
+809,Lost,Medium,451,4,5,1,27270
+810,About To Sleep,Low,314,3,1,4,28750
+811,At Risk,Low,233,2,3,3,20250
+812,Need Attention,Low,332,3,3,2,27370
+813,New Customers,Low,521,5,2,1,22000
+814,Lost,Medium,135,1,3,5,33480
+815,New Customers,Medium,522,5,2,2,22080
+816,Loyal Customers,Premium,445,4,4,5,39200
+817,Need Attention,Medium,333,3,3,3,22140
+818,Hibernating,Medium,225,2,2,5,33600
+819,Loyal Customers,Premium,454,4,5,4,45240
+820,Lost,Low,112,1,1,2,11310
+821,At Risk,Low,242,2,4,2,26640
+822,At Risk,Low,241,2,4,1,21800
+823,Lost,Medium,451,4,5,1,25110
+824,Loyal Customers,Premium,455,4,5,5,46870
+825,Cant Lose Them,Low,141,1,4,1,16020
+826,Lost,Low,131,1,3,1,16650
+827,Need Attention,Medium,351,3,5,1,23750
+828,Potential Loyalists,Medium,453,4,5,3,29750
+829,Promising,Low,413,4,1,3,21620
+830,Lost,Medium,441,4,4,1,20880
+831,Potential Loyalists,Medium,435,4,3,5,39590
+832,About To Sleep,Low,312,3,1,2,18190
+833,Cant Lose Them,Low,151,1,5,1,19530
+834,Lost,Low,133,1,3,3,25990
+835,At Risk,Low,241,2,4,1,21600
+836,At Risk,Medium,243,2,4,3,28840
+837,New Customers,Low,512,5,1,2,24150
+838,At Risk,Low,232,2,3,2,22260
+839,At Risk,Medium,245,2,4,5,29520
+840,Need Attention,Low,332,3,3,2,19320
+841,Cant Lose Them,Medium,144,1,4,4,29700
+842,Lost,Medium,441,4,4,1,25440
+843,Lost,Low,131,1,3,1,16500
+844,Lost,Medium,441,4,4,1,23040
+845,Promising,Medium,513,5,1,3,22750
+846,Promising,Medium,415,4,1,5,30380
+847,At Risk,Low,241,2,4,1,22000
+848,Hibernating,Medium,225,2,2,5,32400
+849,Hibernating,Medium,225,2,2,5,27000
+850,Need Attention,Medium,343,3,4,3,28500
+851,Promising,Medium,513,5,1,3,25500
+852,Lost,Medium,432,4,3,2,28500
+853,Promising,Medium,515,5,1,5,33330
+854,Lost,Low,115,1,1,5,25500
+855,Need Attention,Medium,345,3,4,5,41420
+856,About To Sleep,Low,314,3,1,4,25750
+857,Lost,Low,112,1,1,2,13260
+858,Lost,Medium,135,1,3,5,30690
+859,Need Attention,Medium,343,3,4,3,35400
+860,Need Attention,Low,332,3,3,2,21390
+861,Need Attention,Medium,334,3,3,4,30380
+862,Need Attention,Low,331,3,3,1,20900
+863,Lost,Low,132,1,3,2,21090
+864,Need Attention,Medium,344,3,4,4,34340
+865,Promising,Medium,525,5,2,5,29160
+866,Lost,Medium,532,5,3,2,24840
+867,Promising,Medium,414,4,1,4,29700
+868,Promising,Low,411,4,1,1,14100
+869,Lost,Medium,552,5,5,2,36960
+870,Need Attention,Medium,345,3,4,5,34200
+871,About To Sleep,Medium,325,3,2,5,35200
+872,About To Sleep,Medium,325,3,2,5,32960
+873,Lost,Low,123,1,2,3,23400
+874,Hibernating,Low,224,2,2,4,25220
+875,About To Sleep,Low,321,3,2,1,18400
+876,Potential Loyalists,Medium,433,4,3,3,26970
+877,New Customers,Medium,522,5,2,2,25920
+878,Loyal Customers,Medium,444,4,4,4,36360
+879,Promising,Medium,425,4,2,5,37060
+880,Promising,Low,411,4,1,1,15000
+881,Loyal Customers,Premium,545,5,4,5,44940
+882,Need Attention,Low,332,3,3,2,23230
+883,Promising,Medium,424,4,2,4,26100
+884,Lost,Medium,541,5,4,1,27820
+885,Cant Lose Them,Low,151,1,5,1,19110
+886,Need Attention,Medium,345,3,4,5,45220
+887,Cant Lose Them,Low,152,1,5,2,27250
+888,Lost,Medium,541,5,4,1,26260
+889,Lost,Low,125,1,2,5,24080
+890,Hibernating,Medium,225,2,2,5,31800
+891,Hibernating,Low,211,2,1,1,12760
+892,Cant Lose Them,Low,141,1,4,1,21060
+893,Hibernating,Low,215,2,1,5,28350
+894,Need Attention,Medium,343,3,4,3,24600
+895,Hibernating,Low,213,2,1,3,22610
+896,Hibernating,Low,222,2,2,2,18360
+897,At Risk,Medium,235,2,3,5,32670
+898,At Risk,Medium,235,2,3,5,35640
+899,Lost,Low,131,1,3,1,13350
+900,Need Attention,Premium,355,3,5,5,34850
+901,At Risk,Medium,254,2,5,4,38850
+902,Loyal Customers,Medium,444,4,4,4,34560
+903,Lost,Medium,542,5,4,2,26700
+904,At Risk,Low,251,2,5,1,20930
+905,Loyal Customers,Premium,554,5,5,4,34850
+906,Cant Lose Them,Low,141,1,4,1,16740
+907,At Risk,Medium,255,2,5,5,42900
+908,Need Attention,Premium,355,3,5,5,41410
+909,Potential Loyalists,Medium,433,4,3,3,25520
+910,Hibernating,Low,224,2,2,4,30160
+911,Lost,Medium,541,5,4,1,29380
+912,About To Sleep,Low,312,3,1,2,19550
+913,Promising,Low,422,4,2,2,26180
+914,Lost,Medium,532,5,3,2,27810
+915,Potential Loyalists,Medium,443,4,4,3,32960
+916,At Risk,Low,251,2,5,1,25530
+917,At Risk,Low,242,2,4,2,21360
+918,Promising,Low,421,4,2,1,18360
+919,About To Sleep,Low,323,3,2,3,25200
+920,Lost,Medium,451,4,5,1,22950
+921,Lost,Low,124,1,2,4,21360
+922,Hibernating,Low,223,2,2,3,19140
+923,Promising,Low,413,4,1,3,22770
+924,Loyal Customers,Premium,545,5,4,5,46200
+925,Lost,Low,134,1,3,4,29160
+926,Promising,Medium,514,5,1,4,23490
+927,At Risk,Low,233,2,3,3,21250
+928,Lost,Medium,552,5,5,2,32340
+929,Potential Loyalists,Premium,553,5,5,3,42180
+930,Cant Lose Them,Medium,155,1,5,5,34410
+931,Cant Lose Them,Low,142,1,4,2,24640
+932,Lost,Low,122,1,2,2,16480
+933,Lost,Low,133,1,3,3,24610
+934,Lost,Medium,551,5,5,1,23200
+935,At Risk,Medium,234,2,3,4,33640
+936,Potential Loyalists,Medium,434,4,3,4,29700
+937,At Risk,Medium,243,2,4,3,31080
+938,Need Attention,Medium,333,3,3,3,29430
+939,Lost,Medium,552,5,5,2,37950
+940,Need Attention,Medium,335,3,3,5,41300
+941,Lost,Low,125,1,2,5,26600
+942,Hibernating,Low,223,2,2,3,17600
+943,Promising,Medium,514,5,1,4,25230
+944,Need Attention,Medium,351,3,5,1,24250
+945,Lost,Low,114,1,1,4,17850
+946,Hibernating,Low,215,2,1,5,29700
+947,Cant Lose Them,Medium,155,1,5,5,38850
+948,Lost,Low,131,1,3,1,16800
+949,At Risk,Low,242,2,4,2,20160
+950,Lost,Low,132,1,3,2,16910
+951,At Risk,Low,241,2,4,1,19400
+952,At Risk,Medium,252,2,5,2,26460
+953,Need Attention,Medium,333,3,3,3,28080
+954,Hibernating,Low,224,2,2,4,30680
+955,New Customers,Low,521,5,2,1,21400
+956,Lost,Medium,541,5,4,1,27820
+957,Promising,Medium,424,4,2,4,27900
+958,Lost,Low,131,1,3,1,14550
+959,Promising,Medium,514,5,1,4,26970
+960,Loyal Customers,Premium,455,4,5,5,36120
+961,About To Sleep,Low,322,3,2,2,19600
+962,Need Attention,Medium,345,3,4,5,36860
+963,About To Sleep,Low,323,3,2,3,27120
+964,Loyal Customers,Premium,545,5,4,5,33600
+965,Potential Loyalists,Premium,553,5,5,3,43290
+966,Potential Loyalists,Medium,533,5,3,3,31310
+967,Lost,Low,124,1,2,4,21600
+968,Lost,Low,131,1,3,1,13200
+969,About To Sleep,Low,321,3,2,1,17760
+970,Promising,Medium,514,5,1,4,32480
+971,Potential Loyalists,Premium,535,5,3,5,41730
+972,Lost,Medium,451,4,5,1,21600
+973,Champions,Premium,555,5,5,5,43650
+974,Promising,Medium,514,5,1,4,28420
+975,At Risk,Medium,245,2,4,5,40680
+976,Loyal Customers,Premium,554,5,5,4,43460
+977,Promising,Low,422,4,2,2,20900
+978,About To Sleep,Medium,324,3,2,4,27720
+979,Need Attention,Medium,334,3,3,4,34100
+980,Need Attention,Medium,342,3,4,2,30680
+981,About To Sleep,Low,312,3,1,2,14450
+982,Loyal Customers,Premium,544,5,4,4,31160
+983,Potential Loyalists,Medium,443,4,4,3,32000
+984,Hibernating,Low,221,2,2,1,15820
+985,Potential Loyalists,Medium,453,4,5,3,38150
+986,Hibernating,Low,222,2,2,2,15300
+987,Need Attention,Medium,352,3,5,2,33350
+988,At Risk,Low,233,2,3,3,20000
+989,Cant Lose Them,Low,143,1,4,3,23920
+990,Potential Loyalists,Medium,434,4,3,4,39270
+991,Need Attention,Medium,351,3,5,1,27500
+992,Promising,Low,413,4,1,3,24380
+993,Hibernating,Low,222,2,2,2,19440
+994,Hibernating,Low,222,2,2,2,18360
+995,Need Attention,Premium,355,3,5,5,34850
+996,Lost,Low,125,1,2,5,33040
+997,Need Attention,Medium,342,3,4,2,24180
+998,At Risk,Low,231,2,3,1,16320
+999,Need Attention,Medium,344,3,4,4,34340
+1000,Need Attention,Low,331,3,3,1,16340
+1001,At Risk,Low,233,2,3,3,22500
+1002,Loyal Customers,Premium,545,5,4,5,36540
+1003,Potential Loyalists,Medium,435,4,3,5,39220
+1004,Promising,Medium,425,4,2,5,29920
+1005,Cant Lose Them,Low,151,1,5,1,24360
+1006,Promising,Medium,423,4,2,3,22100
+1007,Need Attention,Medium,342,3,4,2,26000
+1008,Cant Lose Them,Medium,144,1,4,4,33600
+1009,Lost,Medium,442,4,4,2,26320
+1010,Promising,Medium,414,4,1,4,22410
+1011,Lost,Low,123,1,2,3,18800
+1012,Cant Lose Them,Medium,145,1,4,5,29240
+1013,Need Attention,Low,331,3,3,1,20330
+1014,Need Attention,Medium,351,3,5,1,29250
+1015,Promising,Medium,523,5,2,3,31360
+1016,Lost,Medium,551,5,5,1,32480
+1017,Need Attention,Medium,345,3,4,5,36860
+1018,Need Attention,Medium,345,3,4,5,34200
+1019,Lost,Low,111,1,1,1,10260
+1020,Cant Lose Them,Medium,144,1,4,4,35400
+1021,Lost,Medium,552,5,5,2,37290
+1022,Hibernating,Low,215,2,1,5,24030
+1023,About To Sleep,Low,312,3,1,2,18700
+1024,Lost,Medium,551,5,5,1,33930
+1025,At Risk,Medium,253,2,5,3,36580
+1026,Lost,Medium,451,4,5,1,25920
+1027,Lost,Low,122,1,2,2,13280
+1028,Promising,Medium,424,4,2,4,24600
+1029,Promising,Medium,524,5,2,4,34880
+1030,Need Attention,Medium,352,3,5,2,31030
+1031,Need Attention,Medium,342,3,4,2,29900
+1032,Loyal Customers,Premium,445,4,4,5,38800
+1033,Promising,Low,412,4,1,2,17670
+1034,Potential Loyalists,Medium,543,5,4,3,27540
+1035,At Risk,Low,241,2,4,1,19000
+1036,At Risk,Low,242,2,4,2,20880
+1037,Promising,Medium,524,5,2,4,29760
+1038,Need Attention,Low,341,3,4,1,18260
+1039,Hibernating,Low,223,2,2,3,23320
+1040,New Customers,Low,512,5,1,2,24780
+1041,Cant Lose Them,Medium,144,1,4,4,28500
+1042,About To Sleep,Medium,315,3,1,5,33060
+1043,New Customers,Low,511,5,1,1,18360
+1044,Lost,Low,134,1,3,4,25920
+1045,Loyal Customers,Premium,544,5,4,4,37240
+1046,Need Attention,Medium,333,3,3,3,22410
+1047,Need Attention,Medium,344,3,4,4,32980
+1048,Cant Lose Them,Low,142,1,4,2,18480
+1049,Potential Loyalists,Medium,533,5,3,3,35340
+1050,Lost,Low,114,1,1,4,20370
+1051,Promising,Low,421,4,2,1,15660
+1052,Loyal Customers,Premium,545,5,4,5,36960
+1053,At Risk,Low,231,2,3,1,15810
+1054,About To Sleep,Low,321,3,2,1,13920
+1055,Potential Loyalists,Premium,553,5,5,3,34410
+1056,Lost,Low,113,1,1,3,16490
+1057,About To Sleep,Low,314,3,1,4,24250
+1058,At Risk,Medium,253,2,5,3,26970
+1059,Hibernating,Low,212,2,1,2,16800
+1060,Potential Loyalists,Medium,443,4,4,3,32000
+1061,Promising,Medium,415,4,1,5,36580
+1062,Potential Loyalists,Premium,535,5,3,5,35100
+1063,Lost,Medium,441,4,4,1,26400
+1064,About To Sleep,Medium,324,3,2,4,33040
+1065,Need Attention,Medium,344,3,4,4,38420
+1066,Need Attention,Medium,344,3,4,4,32300
+1067,Potential Loyalists,Medium,534,5,3,4,39900
+1068,Loyal Customers,Premium,455,4,5,5,48590
+1069,Need Attention,Medium,351,3,5,1,20000
+1070,Lost,Medium,531,5,3,1,25760
+1071,Need Attention,Low,332,3,3,2,18860
+1072,Need Attention,Medium,345,3,4,5,33440
+1073,At Risk,Low,231,2,3,1,17170
+1074,At Risk,Low,251,2,5,1,18400
+1075,Promising,Medium,424,4,2,4,35100
+1076,At Risk,Medium,244,2,4,4,29760
+1077,At Risk,Medium,252,2,5,2,24840
+1078,Lost,Medium,432,4,3,2,22250
+1079,Cant Lose Them,Medium,144,1,4,4,30900
+1080,Lost,Low,121,1,2,1,12000
+1081,Need Attention,Medium,342,3,4,2,28860
+1082,About To Sleep,Low,314,3,1,4,28000
+1083,Hibernating,Low,212,2,1,2,13650
+1084,At Risk,Low,231,2,3,1,17510
+1085,New Customers,Low,512,5,1,2,22260
+1086,Lost,Low,125,1,2,5,24920
+1087,Cant Lose Them,Medium,145,1,4,5,27540
+1088,Need Attention,Low,341,3,4,1,24420
+1089,Lost,Low,431,4,3,1,20370
+1090,At Risk,Medium,245,2,4,5,33840
+1091,Potential Loyalists,Medium,435,4,3,5,43290
+1092,Need Attention,Low,331,3,3,1,19380
+1093,At Risk,Medium,254,2,5,4,35700
+1094,Promising,Medium,525,5,2,5,36360
+1095,Promising,Medium,423,4,2,3,23920
+1096,Loyal Customers,Premium,445,4,4,5,38800
+1097,Hibernating,Low,223,2,2,3,21780
+1098,Lost,Medium,542,5,4,2,34200
+1099,At Risk,Medium,244,2,4,4,35200
+1100,Promising,Medium,415,4,1,5,33170
+1101,Cant Lose Them,Low,143,1,4,3,26520
+1102,Need Attention,Medium,342,3,4,2,21840
+1103,Loyal Customers,Premium,544,5,4,4,35340
+1104,Need Attention,Medium,345,3,4,5,43700
+1105,Hibernating,Medium,225,2,2,5,27900
+1106,Lost,Low,125,1,2,5,30240
+1107,Potential Loyalists,Premium,535,5,3,5,42900
+1108,Hibernating,Low,221,2,2,1,12320
+1109,Cant Lose Them,Medium,155,1,5,5,35520
+1110,At Risk,Medium,243,2,4,3,32480
+1111,Promising,Medium,515,5,1,5,34980
+1112,Lost,Low,121,1,2,1,11880
+1113,At Risk,Medium,245,2,4,5,37800
+1114,At Risk,Low,232,2,3,2,21210
+1115,Lost,Medium,452,4,5,2,33480
+1116,Lost,Medium,542,5,4,2,33000
+1117,Need Attention,Medium,353,3,5,3,32670
+1118,At Risk,Medium,245,2,4,5,30960
+1119,Promising,Medium,513,5,1,3,28500
+1120,Need Attention,Medium,354,3,5,4,42550
+1121,About To Sleep,Low,323,3,2,3,27120
+1122,Cant Lose Them,Medium,145,1,4,5,33320
+1123,Lost,Low,123,1,2,3,17400
+1124,About To Sleep,Medium,324,3,2,4,26600
+1125,At Risk,Medium,235,2,3,5,26400
+1126,Potential Loyalists,Medium,443,4,4,3,25920
+1127,Potential Loyalists,Medium,453,4,5,3,28700
+1128,Lost,Low,131,1,3,1,13950
+1129,Loyal Customers,Premium,545,5,4,5,42000
+1130,Potential Loyalists,Medium,453,4,5,3,37450
+1131,Lost,Low,132,1,3,2,16530
+1132,Lost,Low,121,1,2,1,13200
+1133,About To Sleep,Low,321,3,2,1,17120
+1134,New Customers,Low,512,5,1,2,19740
+1135,Promising,Medium,513,5,1,3,26500
+1136,Promising,Medium,524,5,2,4,27520
+1137,About To Sleep,Low,314,3,1,4,24250
+1138,Need Attention,Medium,353,3,5,3,26730
+1139,Cant Lose Them,Medium,155,1,5,5,33670
+1140,Lost,Medium,452,4,5,2,36890
+1141,About To Sleep,Low,313,3,1,3,23310
+1142,Loyal Customers,Premium,554,5,5,4,47150
+1143,Hibernating,Low,223,2,2,3,18260
+1144,Hibernating,Low,213,2,1,3,22610
+1145,Cant Lose Them,Low,151,1,5,1,18690
+1146,Promising,Medium,515,5,1,5,29370
+1147,Lost,Low,112,1,1,2,11050
+1148,Loyal Customers,Premium,445,4,4,5,42400
+1149,Cant Lose Them,Medium,154,1,5,4,29700
+1150,Loyal Customers,Premium,544,5,4,4,39140
+1151,Hibernating,Low,213,2,1,3,22040
+1152,Cant Lose Them,Medium,154,1,5,4,30030
+1153,Lost,Low,123,1,2,3,21200
+1154,Lost,Low,121,1,2,1,12600
+1155,Potential Loyalists,Premium,553,5,5,3,41440
+1156,At Risk,Medium,255,2,5,5,44850
+1157,Cant Lose Them,Medium,145,1,4,5,39440
+1158,Promising,Medium,414,4,1,4,23220
+1159,New Customers,Low,512,5,1,2,22680
+1160,Cant Lose Them,Medium,154,1,5,4,27390
+1161,At Risk,Medium,235,2,3,5,27060
+1162,At Risk,Low,251,2,5,1,19090
+1163,About To Sleep,Low,312,3,1,2,17170
+1164,Need Attention,Medium,333,3,3,3,27810
+1165,Lost,Medium,551,5,5,1,26680
+1166,New Customers,Low,511,5,1,1,14960
+1167,About To Sleep,Medium,315,3,1,5,31320
+1168,Lost,Medium,532,5,3,2,31590
+1169,Potential Loyalists,Medium,453,4,5,3,35700
+1170,At Risk,Medium,245,2,4,5,33840
+1171,Promising,Low,412,4,1,2,15960
+1172,Hibernating,Low,212,2,1,2,13050
+1173,Potential Loyalists,Medium,433,4,3,3,28710
+1174,Lost,Low,112,1,1,2,11700
+1175,Potential Loyalists,Premium,553,5,5,3,37370
+1176,Lost,Medium,451,4,5,1,31050
+1177,Potential Loyalists,Medium,435,4,3,5,38850
+1178,Lost,Low,125,1,2,5,27440
+1179,Lost,Medium,452,4,5,2,30070
+1180,Lost,Low,131,1,3,1,12900
+1181,Promising,Medium,414,4,1,4,24030
+1182,Loyal Customers,Premium,545,5,4,5,40740
+1183,New Customers,Low,512,5,1,2,21000
+1184,Lost,Low,112,1,1,2,14560
+1185,Need Attention,Medium,343,3,4,3,30900
+1186,Champions,Premium,555,5,5,5,48600
+1187,Lost,Medium,551,5,5,1,25230
+1188,Lost,Medium,452,4,5,2,26970
+1189,About To Sleep,Low,323,3,2,3,26640
+1190,At Risk,Low,242,2,4,2,21360
+1191,Hibernating,Low,213,2,1,3,19380
+1192,Lost,Medium,541,5,4,1,21840
+1193,Cant Lose Them,Low,141,1,4,1,21420
+1194,Promising,Medium,415,4,1,5,31000
+1195,Promising,Medium,424,4,2,4,31500
+1196,Loyal Customers,Premium,544,5,4,4,34200
+1197,Promising,Medium,423,4,2,3,25220
+1198,Lost,Low,121,1,2,1,13800
+1199,Cant Lose Them,Low,143,1,4,3,27300
+1200,Promising,Medium,415,4,1,5,35340
+1201,Need Attention,Medium,343,3,4,3,25200
+1202,Need Attention,Medium,353,3,5,3,28380
+1203,Hibernating,Medium,225,2,2,5,26400
+1204,At Risk,Low,241,2,4,1,18800
+1205,Loyal Customers,Premium,455,4,5,5,35690
+1206,Hibernating,Low,211,2,1,1,12760
+1207,About To Sleep,Low,311,3,1,1,11830
+1208,Need Attention,Low,332,3,3,2,22080
+1209,Cant Lose Them,Low,151,1,5,1,20160
+1210,Cant Lose Them,Medium,145,1,4,5,33660
+1211,Lost,Medium,135,1,3,5,31620
+1212,Potential Loyalists,Medium,543,5,4,3,37060
+1213,At Risk,Medium,244,2,4,4,32000
+1214,Potential Loyalists,Premium,535,5,3,5,44070
+1215,About To Sleep,Low,314,3,1,4,26500
+1216,Need Attention,Medium,354,3,5,4,40330
+1217,About To Sleep,Medium,315,3,1,5,32190
+1218,Need Attention,Medium,334,3,3,4,28520
+1219,About To Sleep,Low,323,3,2,3,19920
+1220,Need Attention,Low,332,3,3,2,20700
+1221,Lost,Low,123,1,2,3,17400
+1222,Potential Loyalists,Medium,534,5,3,4,33600
+1223,About To Sleep,Low,314,3,1,4,27000
+1224,Hibernating,Medium,225,2,2,5,34800
+1225,Lost,Low,133,1,3,3,21390
+1226,Need Attention,Medium,345,3,4,5,42180
+1227,Potential Loyalists,Medium,443,4,4,3,36480
+1228,About To Sleep,Low,313,3,1,3,19950
+1229,Potential Loyalists,Premium,535,5,3,5,42120
+1230,Promising,Medium,513,5,1,3,27500
+1231,Hibernating,Low,212,2,1,2,12450
+1232,Hibernating,Low,214,2,1,4,23690
+1233,Lost,Medium,551,5,5,1,23490
+1234,Cant Lose Them,Medium,144,1,4,4,30300
+1235,Cant Lose Them,Low,142,1,4,2,18260
+1236,Lost,Medium,432,4,3,2,27750
+1237,Promising,Medium,414,4,1,4,25110
+1238,Loyal Customers,Medium,444,4,4,4,32400
+1239,Lost,Low,114,1,1,4,24780
+1240,Loyal Customers,Premium,454,4,5,4,44850
+1241,Lost,Low,111,1,1,1,8730
+1242,Lost,Low,125,1,2,5,24920
+1243,Potential Loyalists,Medium,534,5,3,4,33250
+1244,Hibernating,Low,222,2,2,2,18180
+1245,Hibernating,Low,222,2,2,2,14400
+1246,Potential Loyalists,Medium,543,5,4,3,38080
+1247,About To Sleep,Low,313,3,1,3,24780
+1248,Hibernating,Low,221,2,2,1,15680
+1249,Promising,Medium,523,5,2,3,28000
+1250,Cant Lose Them,Medium,145,1,4,5,32300
+1251,New Customers,Low,521,5,2,1,22800
+1252,Lost,Medium,541,5,4,1,28600
+1253,Potential Loyalists,Medium,543,5,4,3,32980
+1254,Lost,Low,133,1,3,3,20010
+1255,Promising,Medium,513,5,1,3,24750
+1256,Need Attention,Low,341,3,4,1,20020
+1257,About To Sleep,Low,314,3,1,4,29250
+1258,Lost,Medium,432,4,3,2,27750
+1259,At Risk,Medium,255,2,5,5,37830
+1260,Loyal Customers,Premium,445,4,4,5,47200
+1261,Loyal Customers,Premium,554,5,5,4,39770
+1262,Lost,Low,112,1,1,2,15210
+1263,Promising,Medium,425,4,2,5,31280
+1264,Lost,Low,115,1,1,5,29500
+1265,Lost,Medium,135,1,3,5,29760
+1266,About To Sleep,Low,314,3,1,4,26750
+1267,About To Sleep,Medium,324,3,2,4,32760
+1268,At Risk,Medium,244,2,4,4,36480
+1269,At Risk,Medium,255,2,5,5,35490
+1270,Lost,Low,131,1,3,1,12450
+1271,At Risk,Low,231,2,3,1,13600
+1272,Lost,Medium,451,4,5,1,30510
+1273,Loyal Customers,Premium,445,4,4,5,32400
+1274,At Risk,Low,232,2,3,2,22680
+1275,Potential Loyalists,Medium,453,4,5,3,41300
+1276,Hibernating,Low,215,2,1,5,22680
+1277,Promising,Low,413,4,1,3,22310
+1278,Potential Loyalists,Medium,434,4,3,4,30360
+1279,Promising,Medium,514,5,1,4,26100
+1280,Hibernating,Low,214,2,1,4,26680
+1281,Promising,Medium,425,4,2,5,35020
+1282,Need Attention,Medium,351,3,5,1,21750
+1283,About To Sleep,Low,313,3,1,3,18480
+1284,Potential Loyalists,Medium,534,5,3,4,40250
+1285,About To Sleep,Low,314,3,1,4,26250
+1286,Need Attention,Medium,354,3,5,4,35890
+1287,Promising,Medium,415,4,1,5,36890
+1288,Hibernating,Low,214,2,1,4,22080
+1289,Lost,Low,122,1,2,2,16960
+1290,Need Attention,Medium,335,3,3,5,29050
+1291,Need Attention,Medium,342,3,4,2,26260
+1292,Cant Lose Them,Medium,144,1,4,4,24600
+1293,New Customers,Low,512,5,1,2,18480
+1294,At Risk,Low,251,2,5,1,24610
+1295,Promising,Low,412,4,1,2,19570
+1296,About To Sleep,Low,311,3,1,1,13260
+1297,About To Sleep,Low,321,3,2,1,15680
+1298,At Risk,Low,231,2,3,1,17680
+1299,Promising,Low,411,4,1,1,13800
+1300,At Risk,Low,233,2,3,3,29750
+1301,Promising,Medium,425,4,2,5,32300
+1302,About To Sleep,Medium,324,3,2,4,26320
+1303,Lost,Medium,532,5,3,2,25110
+1304,Lost,Low,111,1,1,1,8460
+1305,Promising,Low,412,4,1,2,15390
+1306,Potential Loyalists,Medium,453,4,5,3,30100
+1307,Lost,Medium,541,5,4,1,21840
+1308,Need Attention,Medium,344,3,4,4,32980
+1309,At Risk,Low,241,2,4,1,17200
+1310,Promising,Medium,425,4,2,5,38080
+1311,Potential Loyalists,Premium,553,5,5,3,29970
+1312,Hibernating,Low,212,2,1,2,15750
+1313,Promising,Medium,415,4,1,5,32240
+1314,Need Attention,Medium,343,3,4,3,28800
+1315,Promising,Low,411,4,1,1,16800
+1316,Potential Loyalists,Premium,535,5,3,5,42120
+1317,Loyal Customers,Medium,444,4,4,4,33120
+1318,At Risk,Low,232,2,3,2,23730
+1319,About To Sleep,Low,323,3,2,3,19680
+1320,About To Sleep,Medium,324,3,2,4,24640
+1321,At Risk,Low,242,2,4,2,25680
+1322,At Risk,Low,232,2,3,2,22050
+1323,Need Attention,Medium,353,3,5,3,36960
+1324,At Risk,Medium,245,2,4,5,38880
+1325,Lost,Medium,551,5,5,1,30160
+1326,About To Sleep,Low,312,3,1,2,19040
+1327,Need Attention,Medium,351,3,5,1,26250
+1328,About To Sleep,Low,321,3,2,1,13280
+1329,Lost,Low,123,1,2,3,21800
+1330,Lost,Medium,451,4,5,1,23760
+1331,Promising,Medium,513,5,1,3,22750
+1332,Promising,Medium,425,4,2,5,38420
+1333,Hibernating,Low,222,2,2,2,16560
+1334,Lost,Low,131,1,3,1,12600
+1335,Cant Lose Them,Low,152,1,5,2,20750
+1336,Cant Lose Them,Low,141,1,4,1,18180
+1337,Promising,Low,411,4,1,1,12750
+1338,Promising,Medium,523,5,2,3,25200
+1339,Lost,Low,113,1,1,3,14110
+1340,At Risk,Medium,245,2,4,5,39960
+1341,Hibernating,Low,215,2,1,5,27810
+1342,Loyal Customers,Premium,454,4,5,4,43290
+1343,At Risk,Low,251,2,5,1,25990
+1344,Hibernating,Low,223,2,2,3,23320
+1345,At Risk,Low,242,2,4,2,21600
+1346,Lost,Low,125,1,2,5,28560
+1347,At Risk,Medium,254,2,5,4,31850
+1348,Cant Lose Them,Low,142,1,4,2,17820
+1349,At Risk,Low,231,2,3,1,19040
+1350,Lost,Low,431,4,3,1,20580
+1351,At Risk,Medium,254,2,5,4,38850
+1352,Lost,Low,134,1,3,4,22410
+1353,Promising,Medium,425,4,2,5,31960
+1354,Cant Lose Them,Low,143,1,4,3,27300
+1355,New Customers,Medium,522,5,2,2,28080
+1356,Lost,Medium,531,5,3,1,23000
+1357,Need Attention,Medium,351,3,5,1,29500
+1358,Promising,Medium,514,5,1,4,29000
+1359,Promising,Medium,525,5,2,5,29880
+1360,At Risk,Low,231,2,3,1,19890
+1361,Promising,Medium,424,4,2,4,29700
+1362,At Risk,Medium,254,2,5,4,32900
+1363,Hibernating,Low,221,2,2,1,12460
+1364,Lost,Low,123,1,2,3,16400
+1365,Loyal Customers,Premium,544,5,4,4,32300
+1366,Hibernating,Low,213,2,1,3,20330
+1367,Need Attention,Premium,355,3,5,5,38950
+1368,New Customers,Medium,522,5,2,2,20880
+1369,Need Attention,Medium,354,3,5,4,41810
+1370,Need Attention,Low,341,3,4,1,23760
+1371,Need Attention,Medium,344,3,4,4,37060
+1372,Need Attention,Medium,344,3,4,4,34680
+1373,Lost,Low,111,1,1,1,8100
+1374,Lost,Medium,442,4,4,2,24920
+1375,Hibernating,Low,223,2,2,3,20240
+1376,Lost,Medium,542,5,4,2,27900
+1377,About To Sleep,Medium,315,3,1,5,30740
+1378,About To Sleep,Low,322,3,2,2,22000
+1379,Lost,Medium,442,4,4,2,28560
+1380,Champions,Premium,555,5,5,5,36000
+1381,Cant Lose Them,Low,151,1,5,1,24570
+1382,Lost,Low,132,1,3,2,18240
+1383,Need Attention,Medium,345,3,4,5,36860
+1384,Cant Lose Them,Medium,155,1,5,5,36260
+1385,Potential Loyalists,Medium,433,4,3,3,29000
+1386,About To Sleep,Low,323,3,2,3,20400
+1387,Promising,Medium,515,5,1,5,36960
+1388,Cant Lose Them,Low,143,1,4,3,29380
+1389,Lost,Medium,441,4,4,1,27840
+1390,Cant Lose Them,Low,151,1,5,1,17010
+1391,Lost,Medium,542,5,4,2,34800
+1392,Loyal Customers,Medium,444,4,4,4,42480
+1393,Need Attention,Medium,335,3,3,5,28350
+1394,Need Attention,Premium,355,3,5,5,47970
+1395,Need Attention,Low,331,3,3,1,22230
+1396,Lost,Low,122,1,2,2,13280
+1397,Cant Lose Them,Low,151,1,5,1,20370
+1398,Cant Lose Them,Medium,154,1,5,4,26400
+1399,Need Attention,Low,331,3,3,1,19950
+1400,Potential Loyalists,Medium,435,4,3,5,42180
+1401,Loyal Customers,Premium,454,4,5,4,42510
+1402,At Risk,Low,232,2,3,2,18690
+1403,Cant Lose Them,Medium,144,1,4,4,27600
+1404,Need Attention,Medium,343,3,4,3,34200
+1405,Potential Loyalists,Medium,453,4,5,3,33950
+1406,Need Attention,Low,341,3,4,1,18480
+1407,Hibernating,Low,214,2,1,4,20470
+1408,Lost,Medium,552,5,5,2,27390
+1409,Loyal Customers,Premium,545,5,4,5,47460
+1410,Potential Loyalists,Premium,535,5,3,5,35100
+1411,Lost,Medium,532,5,3,2,28620
+1412,Lost,Medium,531,5,3,1,21160
+1413,New Customers,Low,511,5,1,1,16830
+1414,Potential Loyalists,Medium,533,5,3,3,31000
+1415,Loyal Customers,Premium,454,4,5,4,42120
+1416,Potential Loyalists,Medium,443,4,4,3,28800
+1417,Lost,Low,134,1,3,4,24300
+1418,Hibernating,Medium,225,2,2,5,35400
+1419,At Risk,Low,233,2,3,3,24500
+1420,Lost,Medium,451,4,5,1,21870
+1421,Lost,Low,114,1,1,4,16800
+1422,Loyal Customers,Premium,455,4,5,5,34830
+1423,Lost,Low,132,1,3,2,20710
+1424,Need Attention,Low,341,3,4,1,21780
+1425,Lost,Medium,442,4,4,2,23520
+1426,At Risk,Medium,252,2,5,2,24840
+1427,Promising,Medium,513,5,1,3,21000
+1428,Hibernating,Low,215,2,1,5,23220
+1429,Lost,Low,132,1,3,2,16720
+1430,Loyal Customers,Premium,455,4,5,5,38270
+1431,Lost,Medium,552,5,5,2,37290
+1432,Lost,Low,133,1,3,3,22540
+1433,Potential Loyalists,Medium,433,4,3,3,25520
+1434,Cant Lose Them,Medium,145,1,4,5,28220
+1435,New Customers,Low,521,5,2,1,23200
+1436,Cant Lose Them,Medium,153,1,5,3,32190
+1437,Lost,Low,124,1,2,4,24480
+1438,Lost,Low,115,1,1,5,23500
+1439,Need Attention,Medium,354,3,5,4,41070
+1440,Lost,Low,123,1,2,3,21800
+1441,Potential Loyalists,Medium,453,4,5,3,34300
+1442,Need Attention,Medium,333,3,3,3,31590
+1443,Need Attention,Medium,354,3,5,4,40700
+1444,New Customers,Medium,522,5,2,2,24240
+1445,Need Attention,Medium,354,3,5,4,34410
+1446,Need Attention,Medium,352,3,5,2,32770
+1447,At Risk,Low,241,2,4,1,19800
+1448,Need Attention,Low,331,3,3,1,16720
+1449,Need Attention,Medium,344,3,4,4,40460
+1450,Potential Loyalists,Medium,533,5,3,3,29760
+1451,New Customers,Low,511,5,1,1,17680
+1452,Promising,Low,411,4,1,1,16500
+1453,At Risk,Medium,252,2,5,2,29430
+1454,Potential Loyalists,Medium,434,4,3,4,31020
+1455,Need Attention,Medium,342,3,4,2,22620
+1456,About To Sleep,Medium,325,3,2,5,35520
+1457,Promising,Medium,513,5,1,3,27750
+1458,Hibernating,Low,213,2,1,3,18810
+1459,Promising,Medium,523,5,2,3,26040
+1460,Promising,Low,422,4,2,2,24860
+1461,Need Attention,Premium,355,3,5,5,41820
+1462,Lost,Low,131,1,3,1,15150
+1463,Need Attention,Low,341,3,4,1,25740
+1464,At Risk,Medium,253,2,5,3,26660
+1465,Cant Lose Them,Low,142,1,4,2,19140
+1466,At Risk,Medium,252,2,5,2,28620
+1467,Promising,Medium,425,4,2,5,29920
+1468,Promising,Medium,513,5,1,3,20750
+1469,At Risk,Medium,253,2,5,3,33480
+1470,Promising,Low,421,4,2,1,15480
+1471,Cant Lose Them,Medium,154,1,5,4,28380
+1472,Hibernating,Low,214,2,1,4,20930
+1473,At Risk,Medium,255,2,5,5,35100
+1474,At Risk,Low,233,2,3,3,25000
+1475,Potential Loyalists,Medium,435,4,3,5,34780
+1476,Lost,Medium,531,5,3,1,22080
+1477,Hibernating,Low,221,2,2,1,13160
+1478,Potential Loyalists,Medium,443,4,4,3,32640
+1479,Lost,Low,431,4,3,1,19530
+1480,New Customers,Low,521,5,2,1,17400
+1481,Cant Lose Them,Medium,155,1,5,5,29600
+1482,Lost,Medium,531,5,3,1,25990
+1483,Lost,Medium,552,5,5,2,38940
+1484,Hibernating,Low,224,2,2,4,23920
+1485,Lost,Low,124,1,2,4,23040
+1486,Lost,Medium,441,4,4,1,19680
+1487,Lost,Medium,432,4,3,2,21750
+1488,Cant Lose Them,Medium,145,1,4,5,29920
+1489,New Customers,Low,511,5,1,1,14620
+1490,Promising,Medium,515,5,1,5,33000
+1491,Loyal Customers,Premium,554,5,5,4,40180
+1492,At Risk,Low,251,2,5,1,20470
+1493,Need Attention,Low,341,3,4,1,21780
+1494,Hibernating,Low,223,2,2,3,26180
+1495,Potential Loyalists,Medium,435,4,3,5,38850
+1496,Lost,Medium,542,5,4,2,24600
+1497,Potential Loyalists,Medium,434,4,3,4,30690
+1498,Lost,Low,431,4,3,1,18900
+1499,Cant Lose Them,Low,151,1,5,1,22470
+1500,Need Attention,Premium,355,3,5,5,42640
+1501,Promising,Medium,514,5,1,4,23490
+1502,Hibernating,Low,222,2,2,2,18540
+1503,About To Sleep,Low,323,3,2,3,20400
+1504,Promising,Medium,525,5,2,5,41400
+1505,Promising,Medium,524,5,2,4,35200
+1506,Lost,Low,124,1,2,4,23760
+1507,Hibernating,Low,223,2,2,3,18260
+1508,Lost,Medium,442,4,4,2,24920
+1509,Lost,Medium,441,4,4,1,28320
+1510,At Risk,Low,251,2,5,1,25300
+1511,Cant Lose Them,Low,141,1,4,1,18900
+1512,Lost,Low,114,1,1,4,18690
+1513,About To Sleep,Low,312,3,1,2,16320
+1514,Hibernating,Low,213,2,1,3,16910
+1515,About To Sleep,Low,322,3,2,2,19200
+1516,Promising,Medium,424,4,2,4,29100
+1517,At Risk,Medium,244,2,4,4,33280
+1518,Need Attention,Medium,353,3,5,3,26400
+1519,Lost,Medium,452,4,5,2,26350
+1520,Loyal Customers,Premium,454,4,5,4,37830
+1521,Lost,Medium,542,5,4,2,31500
+1522,Need Attention,Low,341,3,4,1,20020
+1523,Need Attention,Medium,353,3,5,3,38280
+1524,Cant Lose Them,Low,143,1,4,3,30940
+1525,Lost,Low,132,1,3,2,17480
+1526,Hibernating,Low,212,2,1,2,15000
+1527,About To Sleep,Low,321,3,2,1,18240
+1528,About To Sleep,Low,312,3,1,2,17680
+1529,Loyal Customers,Premium,455,4,5,5,41710
+1530,Potential Loyalists,Medium,434,4,3,4,38610
+1531,At Risk,Medium,252,2,5,2,22410
+1532,Lost,Low,133,1,3,3,23690
+1533,At Risk,Medium,253,2,5,3,35030
+1534,About To Sleep,Low,322,3,2,2,16400
+1535,Need Attention,Medium,344,3,4,4,33660
+1536,Lost,Low,112,1,1,2,14820
+1537,New Customers,Low,511,5,1,1,18870
+1538,Lost,Medium,135,1,3,5,30070
+1539,Hibernating,Low,214,2,1,4,26450
+1540,At Risk,Medium,244,2,4,4,32000
+1541,At Risk,Medium,243,2,4,3,32200
+1542,Loyal Customers,Premium,454,4,5,4,44460
+1543,At Risk,Medium,245,2,4,5,34560
+1544,Potential Loyalists,Medium,435,4,3,5,40700
+1545,At Risk,Low,242,2,4,2,27840
+1546,Loyal Customers,Premium,545,5,4,5,37380
+1547,About To Sleep,Low,312,3,1,2,15300
+1548,At Risk,Medium,252,2,5,2,22680
+1549,Lost,Medium,432,4,3,2,26250
+1550,Promising,Low,411,4,1,1,17250
+1551,Need Attention,Medium,354,3,5,4,36630
+1552,About To Sleep,Low,313,3,1,3,23940
+1553,Potential Loyalists,Medium,534,5,3,4,30100
+1554,Lost,Low,132,1,3,2,16340
+1555,At Risk,Medium,254,2,5,4,36050
+1556,Champions,Premium,555,5,5,5,40950
+1557,Promising,Low,412,4,1,2,22040
+1558,Promising,Medium,524,5,2,4,35840
+1559,Lost,Medium,531,5,3,1,19090
+1560,Lost,Medium,452,4,5,2,35650
+1561,Need Attention,Medium,353,3,5,3,30030
+1562,At Risk,Medium,254,2,5,4,39550
+1563,Potential Loyalists,Medium,534,5,3,4,32900
+1564,Lost,Medium,432,4,3,2,26250
+1565,Hibernating,Low,224,2,2,4,22620
+1566,Cant Lose Them,Medium,155,1,5,5,42920
+1567,Lost,Low,125,1,2,5,33040
+1568,Need Attention,Low,332,3,3,2,24840
+1569,Cant Lose Them,Low,142,1,4,2,23760
+1570,Need Attention,Medium,345,3,4,5,36860
+1571,Lost,Medium,452,4,5,2,25420
+1572,At Risk,Medium,254,2,5,4,30450
+1573,Lost,Medium,432,4,3,2,28500
+1574,Loyal Customers,Premium,454,4,5,4,32760
+1575,Promising,Medium,524,5,2,4,28800
+1576,Loyal Customers,Medium,444,4,4,4,30240
+1577,At Risk,Medium,234,2,3,4,26970
+1578,Promising,Low,412,4,1,2,15390
+1579,Hibernating,Low,213,2,1,3,19380
+1580,Need Attention,Medium,344,3,4,4,34000
+1581,Promising,Medium,514,5,1,4,25520
+1582,Hibernating,Low,211,2,1,1,10780
+1583,At Risk,Low,242,2,4,2,22080
+1584,Lost,Low,431,4,3,1,18270
+1585,Potential Loyalists,Medium,534,5,3,4,38500
+1586,At Risk,Medium,234,2,3,4,30450
+1587,At Risk,Medium,244,2,4,4,32640
+1588,Need Attention,Medium,335,3,3,5,31150
+1589,Loyal Customers,Premium,554,5,5,4,47560
+1590,At Risk,Low,251,2,5,1,18630
+1591,Hibernating,Low,214,2,1,4,19320
+1592,Hibernating,Low,213,2,1,3,20520
+1593,Potential Loyalists,Medium,534,5,3,4,31150
+1594,Lost,Medium,551,5,5,1,27840
+1595,Lost,Low,124,1,2,4,25440
+1596,Loyal Customers,Premium,445,4,4,5,42800
+1597,At Risk,Low,241,2,4,1,23000
+1598,Lost,Low,121,1,2,1,9960
+1599,Lost,Low,132,1,3,2,20330
+1600,At Risk,Low,251,2,5,1,20930
+1601,At Risk,Low,242,2,4,2,24000
+1602,Cant Lose Them,Medium,154,1,5,4,38610
+1603,About To Sleep,Low,323,3,2,3,26160
+1604,Lost,Low,132,1,3,2,15200
+1605,Lost,Medium,442,4,4,2,24920
+1606,At Risk,Medium,245,2,4,5,39240
+1607,Need Attention,Medium,342,3,4,2,29120
+1608,About To Sleep,Low,312,3,1,2,19550
+1609,Potential Loyalists,Medium,433,4,3,3,26100
+1610,Loyal Customers,Premium,454,4,5,4,33150
+1611,Lost,Low,134,1,3,4,25650
+1612,Lost,Low,132,1,3,2,15200
+1613,Promising,Medium,424,4,2,4,28800
+1614,Lost,Low,125,1,2,5,28840
+1615,Cant Lose Them,Low,143,1,4,3,26520
+1616,Lost,Low,131,1,3,1,17400
+1617,Promising,Medium,415,4,1,5,24800
+1618,Lost,Medium,442,4,4,2,24640
+1619,Cant Lose Them,Medium,154,1,5,4,32010
+1620,Lost,Low,132,1,3,2,20710
+1621,Potential Loyalists,Medium,433,4,3,3,29580
+1622,About To Sleep,Low,323,3,2,3,19680
+1623,At Risk,Medium,245,2,4,5,42120
+1624,Lost,Medium,135,1,3,5,34720
+1625,Champions,Premium,555,5,5,5,53550
+1626,At Risk,Medium,255,2,5,5,35880
+1627,At Risk,Low,251,2,5,1,25070
+1628,Lost,Medium,552,5,5,2,35970
+1629,Cant Lose Them,Low,143,1,4,3,22880
+1630,Lost,Low,133,1,3,3,23230
+1631,Lost,Medium,452,4,5,2,29760
+1632,Lost,Medium,532,5,3,2,25380
+1633,At Risk,Medium,253,2,5,3,28520
+1634,Potential Loyalists,Medium,543,5,4,3,30940
+1635,Need Attention,Medium,335,3,3,5,36050
+1636,Potential Loyalists,Premium,535,5,3,5,39390
+1637,Lost,Low,431,4,3,1,20160
+1638,Potential Loyalists,Medium,543,5,4,3,27200
+1639,Promising,Medium,525,5,2,5,37440
+1640,Lost,Medium,532,5,3,2,28890
+1641,Loyal Customers,Premium,455,4,5,5,39130
+1642,Loyal Customers,Premium,554,5,5,4,41000
+1643,Lost,Low,113,1,1,3,19550
+1644,Promising,Low,412,4,1,2,21850
+1645,Potential Loyalists,Medium,434,4,3,4,34320
+1646,Loyal Customers,Premium,544,5,4,4,35340
+1647,Promising,Medium,514,5,1,4,29580
+1648,Hibernating,Low,222,2,2,2,14580
+1649,Cant Lose Them,Medium,144,1,4,4,33600
+1650,Need Attention,Medium,333,3,3,3,26460
+1651,Lost,Medium,542,5,4,2,31800
+1652,Promising,Low,422,4,2,2,20900
+1653,New Customers,Medium,522,5,2,2,28320
+1654,Cant Lose Them,Medium,145,1,4,5,36380
+1655,Lost,Medium,452,4,5,2,31620
+1656,Promising,Medium,415,4,1,5,32860
+1657,Need Attention,Medium,353,3,5,3,27060
+1658,At Risk,Medium,244,2,4,4,25600
+1659,Promising,Medium,523,5,2,3,32760
+1660,At Risk,Medium,254,2,5,4,31500
+1661,Need Attention,Medium,335,3,3,5,36050
+1662,Champions,Premium,555,5,5,5,50400
+1663,Potential Loyalists,Premium,553,5,5,3,42550
+1664,Need Attention,Medium,334,3,3,4,30380
+1665,Need Attention,Medium,333,3,3,3,21870
+1666,Hibernating,Low,212,2,1,2,13200
+1667,Promising,Low,412,4,1,2,21850
+1668,Need Attention,Medium,352,3,5,2,30160
+1669,Lost,Low,123,1,2,3,17000
+1670,About To Sleep,Medium,324,3,2,4,26320
+1671,About To Sleep,Low,323,3,2,3,27600
+1672,Need Attention,Medium,354,3,5,4,35150
+1673,Promising,Medium,424,4,2,4,33300
+1674,Cant Lose Them,Low,141,1,4,1,16560
+1675,Potential Loyalists,Medium,543,5,4,3,31620
+1676,Promising,Medium,524,5,2,4,28800
+1677,At Risk,Medium,244,2,4,4,36800
+1678,About To Sleep,Medium,325,3,2,5,31680
+1679,Promising,Low,413,4,1,3,22770
+1680,Need Attention,Medium,343,3,4,3,26700
+1681,New Customers,Medium,522,5,2,2,25920
+1682,Promising,Low,412,4,1,2,19000
+1683,New Customers,Low,512,5,1,2,17430
+1684,At Risk,Medium,244,2,4,4,35200
+1685,Promising,Medium,523,5,2,3,23800
+1686,Hibernating,Low,213,2,1,3,20520
+1687,New Customers,Low,511,5,1,1,13940
+1688,At Risk,Low,233,2,3,3,27750
+1689,At Risk,Medium,252,2,5,2,29970
+1690,Lost,Medium,441,4,4,1,28080
+1691,At Risk,Low,251,2,5,1,19320
+1692,Loyal Customers,Premium,455,4,5,5,37410
+1693,Loyal Customers,Medium,444,4,4,4,36720
+1694,Hibernating,Low,215,2,1,5,24570
+1695,Cant Lose Them,Low,141,1,4,1,20160
+1696,Potential Loyalists,Premium,553,5,5,3,29600
+1697,Cant Lose Them,Medium,154,1,5,4,30690
+1698,New Customers,Low,512,5,1,2,18270
+1699,Hibernating,Low,214,2,1,4,21160
+1700,Lost,Low,431,4,3,1,23940
+1701,Need Attention,Medium,342,3,4,2,21320
+1702,Loyal Customers,Premium,545,5,4,5,37380
+1703,Need Attention,Medium,345,3,4,5,39520
+1704,Need Attention,Low,341,3,4,1,25520
+1705,Lost,Medium,541,5,4,1,27820
+1706,Potential Loyalists,Premium,553,5,5,3,38110
+1707,Potential Loyalists,Medium,434,4,3,4,36960
+1708,Cant Lose Them,Medium,155,1,5,5,39960
+1709,Need Attention,Medium,334,3,3,4,33790
+1710,Lost,Low,431,4,3,1,20790
+1711,Lost,Low,112,1,1,2,12350
+1712,Need Attention,Medium,353,3,5,3,34650
+1713,Potential Loyalists,Medium,443,4,4,3,30400
+1714,Hibernating,Low,224,2,2,4,25740
+1715,Lost,Medium,442,4,4,2,25200
+1716,Lost,Medium,451,4,5,1,27000
+1717,Lost,Low,113,1,1,3,16490
+1718,At Risk,Low,231,2,3,1,18530
+1719,Loyal Customers,Premium,455,4,5,5,39560
+1720,About To Sleep,Low,323,3,2,3,20400
+1721,Promising,Low,412,4,1,2,19380
+1722,Promising,Medium,515,5,1,5,38940
+1723,Need Attention,Medium,353,3,5,3,32340
+1724,Lost,Low,123,1,2,3,23200
+1725,About To Sleep,Low,322,3,2,2,17200
+1726,Hibernating,Low,221,2,2,1,15540
+1727,At Risk,Low,251,2,5,1,20010
+1728,At Risk,Medium,244,2,4,4,36800
+1729,Potential Loyalists,Medium,453,4,5,3,37100
+1730,Promising,Medium,523,5,2,3,23520
+1731,Lost,Low,112,1,1,2,10660
+1732,Potential Loyalists,Medium,433,4,3,3,26970
+1733,At Risk,Low,242,2,4,2,21600
+1734,Promising,Low,411,4,1,1,12600
+1735,About To Sleep,Medium,325,3,2,5,27840
+1736,Need Attention,Medium,335,3,3,5,32200
+1737,Loyal Customers,Premium,454,4,5,4,40170
+1738,Lost,Medium,442,4,4,2,29120
+1739,Promising,Medium,525,5,2,5,40320
+1740,Loyal Customers,Premium,445,4,4,5,40800
+1741,Promising,Medium,423,4,2,3,29380
+1742,Potential Loyalists,Medium,534,5,3,4,29750
+1743,Lost,Medium,552,5,5,2,30030
+1744,Hibernating,Low,224,2,2,4,27820
+1745,Promising,Low,411,4,1,1,15450
+1746,Lost,Low,115,1,1,5,28000
+1747,Hibernating,Medium,225,2,2,5,25200
+1748,Loyal Customers,Premium,545,5,4,5,36960
+1749,Lost,Low,134,1,3,4,23760
+1750,Hibernating,Low,214,2,1,4,20930
+1751,Need Attention,Medium,334,3,3,4,27280
+1752,Cant Lose Them,Medium,154,1,5,4,36300
+1753,About To Sleep,Low,321,3,2,1,14560
+1754,Potential Loyalists,Medium,534,5,3,4,37450
+1755,At Risk,Low,232,2,3,2,19320
+1756,Lost,Low,123,1,2,3,22200
+1757,About To Sleep,Low,311,3,1,1,11960
+1758,Lost,Low,122,1,2,2,14720
+1759,Need Attention,Low,341,3,4,1,21560
+1760,Champions,Premium,555,5,5,5,53100
+1761,Potential Loyalists,Premium,535,5,3,5,40170
+1762,Need Attention,Medium,352,3,5,2,33060
+1763,Lost,Low,114,1,1,4,16800
+1764,Cant Lose Them,Low,142,1,4,2,20460
+1765,New Customers,Low,511,5,1,1,16660
+1766,At Risk,Low,242,2,4,2,25680
+1767,Lost,Medium,542,5,4,2,32700
+1768,Loyal Customers,Medium,444,4,4,4,30240
+1769,Loyal Customers,Premium,545,5,4,5,37800
+1770,Need Attention,Premium,355,3,5,5,46330
+1771,About To Sleep,Low,314,3,1,4,26500
+1772,Lost,Low,112,1,1,2,10790
+1773,About To Sleep,Low,313,3,1,3,23100
+1774,Promising,Medium,425,4,2,5,32980
+1775,Need Attention,Premium,355,3,5,5,42230
+1776,About To Sleep,Medium,315,3,1,5,28420
+1777,At Risk,Medium,254,2,5,4,32550
+1778,About To Sleep,Low,314,3,1,4,27750
+1779,Cant Lose Them,Medium,144,1,4,4,28800
+1780,Promising,Medium,524,5,2,4,28480
+1781,Promising,Medium,425,4,2,5,35700
+1782,Promising,Medium,523,5,2,3,22400
+1783,About To Sleep,Low,314,3,1,4,29000
+1784,Hibernating,Low,222,2,2,2,15120
+1785,Lost,Low,133,1,3,3,25300
+1786,Lost,Low,131,1,3,1,17700
+1787,Lost,Low,111,1,1,1,9990
+1788,Lost,Medium,432,4,3,2,26000
+1789,Lost,Low,121,1,2,1,12240
+1790,About To Sleep,Medium,324,3,2,4,31080
+1791,Promising,Low,413,4,1,3,23920
+1792,Promising,Medium,425,4,2,5,37400
+1793,Cant Lose Them,Medium,154,1,5,4,36960
+1794,About To Sleep,Low,322,3,2,2,20200
+1795,New Customers,Low,521,5,2,1,19200
+1796,Lost,Medium,452,4,5,2,25110
+1797,Lost,Medium,542,5,4,2,28800
+1798,Lost,Medium,541,5,4,1,22880
+1799,Potential Loyalists,Medium,534,5,3,4,40950
+1800,About To Sleep,Low,314,3,1,4,23000
+1801,At Risk,Low,233,2,3,3,21750
+1802,Lost,Low,125,1,2,5,22960
+1803,Need Attention,Medium,352,3,5,2,34510
+1804,Hibernating,Low,222,2,2,2,20520
+1805,Loyal Customers,Premium,455,4,5,5,38270
+1806,Need Attention,Medium,335,3,3,5,40250
+1807,Loyal Customers,Premium,445,4,4,5,43200
+1808,Need Attention,Medium,345,3,4,5,36480
+1809,Cant Lose Them,Medium,144,1,4,4,29400
+1810,Lost,Medium,135,1,3,5,33480
+1811,Need Attention,Medium,343,3,4,3,27300
+1812,About To Sleep,Low,312,3,1,2,20230
+1813,Promising,Medium,523,5,2,3,33320
+1814,Promising,Low,422,4,2,2,25960
+1815,Lost,Low,123,1,2,3,16400
+1816,Need Attention,Medium,345,3,4,5,31540
+1817,At Risk,Medium,244,2,4,4,34880
+1818,Need Attention,Medium,342,3,4,2,27300
+1819,Potential Loyalists,Medium,543,5,4,3,38080
+1820,Lost,Medium,452,4,5,2,33480
+1821,Promising,Medium,515,5,1,5,27720
+1822,At Risk,Low,242,2,4,2,24240
+1823,Hibernating,Low,221,2,2,1,15680
+1824,Lost,Low,112,1,1,2,13000
+1825,Cant Lose Them,Low,143,1,4,3,26780
+1826,Lost,Medium,441,4,4,1,20400
+1827,Loyal Customers,Premium,455,4,5,5,47300
+1828,At Risk,Low,242,2,4,2,22080
+1829,Need Attention,Low,332,3,3,2,24150
+1830,Cant Lose Them,Low,151,1,5,1,18900
+1831,Promising,Medium,424,4,2,4,31800
+1832,Need Attention,Medium,343,3,4,3,29700
+1833,Need Attention,Medium,343,3,4,3,24900
+1834,At Risk,Low,233,2,3,3,29750
+1835,New Customers,Medium,522,5,2,2,22080
+1836,Cant Lose Them,Low,143,1,4,3,26520
+1837,Promising,Low,422,4,2,2,26180
+1838,Potential Loyalists,Premium,553,5,5,3,42180
+1839,Loyal Customers,Medium,444,4,4,4,41400
+1840,Cant Lose Them,Low,151,1,5,1,21000
+1841,Lost,Low,115,1,1,5,22750
+1842,At Risk,Low,242,2,4,2,24960
+1843,Lost,Medium,135,1,3,5,25110
+1844,Loyal Customers,Premium,454,4,5,4,38610
+1845,Promising,Medium,524,5,2,4,37440
+1846,Hibernating,Low,224,2,2,4,22100
+1847,Lost,Low,131,1,3,1,15150
+1848,About To Sleep,Low,323,3,2,3,25680
+1849,Lost,Medium,552,5,5,2,32670
+1850,Loyal Customers,Premium,454,4,5,4,44070
+1851,Need Attention,Medium,334,3,3,4,27280
+1852,Lost,Low,113,1,1,3,17340
+1853,Need Attention,Low,341,3,4,1,21340
+1854,Lost,Medium,135,1,3,5,35650
+1855,About To Sleep,Medium,315,3,1,5,29580
+1856,Promising,Medium,525,5,2,5,40320
+1857,Loyal Customers,Premium,554,5,5,4,41820
+1858,Potential Loyalists,Medium,433,4,3,3,29000
+1859,Cant Lose Them,Medium,154,1,5,4,35640
+1860,Potential Loyalists,Medium,534,5,3,4,34300
+1861,At Risk,Medium,235,2,3,5,33990
+1862,About To Sleep,Medium,324,3,2,4,30520
+1863,Hibernating,Low,221,2,2,1,15540
+1864,Lost,Low,131,1,3,1,13350
+1865,Loyal Customers,Premium,455,4,5,5,44290
+1866,Promising,Medium,424,4,2,4,25800
+1867,Lost,Low,113,1,1,3,17000
+1868,Lost,Low,115,1,1,5,20000
+1869,Promising,Medium,515,5,1,5,30030
+1870,Promising,Medium,425,4,2,5,27880
+1871,At Risk,Medium,254,2,5,4,36400
+1872,Need Attention,Medium,343,3,4,3,32400
+1873,Promising,Low,422,4,2,2,21560
+1874,Lost,Medium,441,4,4,1,24960
+1875,Lost,Low,114,1,1,4,19950
+1876,Lost,Low,113,1,1,3,15810
+1877,About To Sleep,Low,311,3,1,1,12610
+1878,Potential Loyalists,Medium,534,5,3,4,30100
+1879,Loyal Customers,Premium,454,4,5,4,44070
+1880,Lost,Low,131,1,3,1,12900
+1881,Hibernating,Low,221,2,2,1,12880
+1882,At Risk,Low,242,2,4,2,20400
+1883,About To Sleep,Low,323,3,2,3,22320
+1884,About To Sleep,Low,323,3,2,3,23040
+1885,About To Sleep,Low,322,3,2,2,23800
+1886,Need Attention,Medium,352,3,5,2,26680
+1887,Lost,Low,123,1,2,3,23600
+1888,New Customers,Low,511,5,1,1,16150
+1889,Promising,Medium,523,5,2,3,28560
+1890,About To Sleep,Low,313,3,1,3,20790
+1891,Lost,Low,122,1,2,2,16000
+1892,Lost,Medium,551,5,5,1,31900
+1893,Hibernating,Low,215,2,1,5,21600
+1894,Potential Loyalists,Premium,535,5,3,5,36270
+1895,At Risk,Low,231,2,3,1,18700
+1896,Lost,Medium,135,1,3,5,28520
+1897,Need Attention,Medium,335,3,3,5,33600
+1898,Hibernating,Low,214,2,1,4,26220
+1899,Need Attention,Medium,352,3,5,2,27840
+1900,Need Attention,Medium,352,3,5,2,29580
+1901,Cant Lose Them,Low,141,1,4,1,15300
+1902,Promising,Medium,523,5,2,3,27720
+1903,Need Attention,Medium,344,3,4,4,40460
+1904,Need Attention,Low,331,3,3,1,15200
+1905,Promising,Medium,513,5,1,3,25500
+1906,At Risk,Medium,254,2,5,4,28700
+1907,Potential Loyalists,Medium,435,4,3,5,40700
+1908,Need Attention,Medium,333,3,3,3,28890
+1909,New Customers,Low,511,5,1,1,14790
+1910,Lost,Low,115,1,1,5,29000
+1911,Lost,Low,111,1,1,1,7650
+1912,Hibernating,Low,222,2,2,2,19980
+1913,At Risk,Low,241,2,4,1,19000
+1914,Cant Lose Them,Low,143,1,4,3,29380
+1915,Lost,Low,111,1,1,1,10170
+1916,Lost,Low,125,1,2,5,29120
+1917,Loyal Customers,Premium,544,5,4,4,31540
+1918,Cant Lose Them,Medium,144,1,4,4,33300
+1919,Need Attention,Medium,345,3,4,5,42180
+1920,At Risk,Medium,254,2,5,4,30450
+1921,About To Sleep,Medium,315,3,1,5,33640
+1922,Loyal Customers,Medium,444,4,4,4,39960
+1923,At Risk,Medium,235,2,3,5,32670
+1924,Potential Loyalists,Premium,553,5,5,3,36260
+1925,At Risk,Low,231,2,3,1,17510
+1926,Potential Loyalists,Medium,453,4,5,3,37800
+1927,At Risk,Medium,252,2,5,2,26460
+1928,Lost,Low,111,1,1,1,8460
+1929,Potential Loyalists,Medium,453,4,5,3,30450
+1930,Need Attention,Medium,343,3,4,3,25200
+1931,Cant Lose Them,Low,152,1,5,2,20000
+1932,Hibernating,Low,213,2,1,3,19570
+1933,Hibernating,Low,222,2,2,2,19260
+1934,Cant Lose Them,Medium,144,1,4,4,34800
+1935,Lost,Medium,135,1,3,5,29140
+1936,Lost,Medium,541,5,4,1,28340
+1937,Hibernating,Low,222,2,2,2,16560
+1938,Need Attention,Medium,334,3,3,4,35340
+1939,At Risk,Low,232,2,3,2,22470
+1940,Need Attention,Medium,333,3,3,3,28890
+1941,Lost,Low,431,4,3,1,21840
+1942,Need Attention,Low,341,3,4,1,26180
+1943,Potential Loyalists,Premium,553,5,5,3,32930
+1944,Lost,Low,111,1,1,1,9810
+1945,Promising,Low,422,4,2,2,18260
+1946,Lost,Low,113,1,1,3,18020
+1947,Hibernating,Low,214,2,1,4,19090
+1948,Cant Lose Them,Medium,154,1,5,4,28710
+1949,Lost,Medium,432,4,3,2,20750
+1950,Promising,Low,411,4,1,1,12750
+1951,At Risk,Medium,254,2,5,4,39550
+1952,Need Attention,Medium,333,3,3,3,23760
+1953,Lost,Low,131,1,3,1,15600
+1954,New Customers,Low,511,5,1,1,17170
+1955,New Customers,Low,512,5,1,2,23100
+1956,Hibernating,Low,213,2,1,3,16340
+1957,Lost,Low,112,1,1,2,14950
+1958,Hibernating,Low,223,2,2,3,21780
+1959,Potential Loyalists,Medium,434,4,3,4,37290
+1960,Promising,Medium,415,4,1,5,29140
+1961,Loyal Customers,Premium,445,4,4,5,32000
+1962,About To Sleep,Low,313,3,1,3,19320
+1963,Loyal Customers,Premium,545,5,4,5,35280
+1964,Promising,Low,421,4,2,1,21060
+1965,Potential Loyalists,Medium,434,4,3,4,27390
+1966,About To Sleep,Low,311,3,1,1,11960
+1967,Cant Lose Them,Medium,155,1,5,5,39220
+1968,At Risk,Medium,243,2,4,3,24080
+1969,At Risk,Medium,244,2,4,4,30080
+1970,Promising,Medium,514,5,1,4,24650
+1971,At Risk,Medium,254,2,5,4,30100
+1972,About To Sleep,Low,314,3,1,4,24750
+1973,Promising,Low,422,4,2,2,19580
+1974,About To Sleep,Medium,315,3,1,5,24940
+1975,Loyal Customers,Premium,454,4,5,4,31980
+1976,Lost,Medium,442,4,4,2,27440
+1977,Cant Lose Them,Low,152,1,5,2,22250
+1978,Lost,Low,125,1,2,5,25200
+1979,About To Sleep,Medium,315,3,1,5,28130
+1980,At Risk,Medium,253,2,5,3,35030
+1981,Lost,Low,124,1,2,4,25200
+1982,Need Attention,Premium,355,3,5,5,37720
+1983,Cant Lose Them,Medium,145,1,4,5,27880
+1984,Lost,Low,123,1,2,3,16600
+1985,Lost,Medium,442,4,4,2,32480
+1986,Need Attention,Medium,344,3,4,4,34000
+1987,Loyal Customers,Premium,454,4,5,4,44070
+1988,About To Sleep,Low,323,3,2,3,26400
+1989,Cant Lose Them,Medium,145,1,4,5,27880
+1990,Lost,Low,125,1,2,5,31360
+1991,About To Sleep,Low,312,3,1,2,15470
+1992,Cant Lose Them,Medium,154,1,5,4,38940
+1993,Cant Lose Them,Medium,145,1,4,5,35360
+1994,About To Sleep,Low,313,3,1,3,22890
+1995,Need Attention,Low,341,3,4,1,18700
+1996,Need Attention,Medium,334,3,3,4,26660
+1997,Need Attention,Low,331,3,3,1,21280
+1998,At Risk,Low,231,2,3,1,18530
+1999,Potential Loyalists,Medium,543,5,4,3,32640
+2000,About To Sleep,Low,323,3,2,3,21840
+2001,Lost,Medium,441,4,4,1,21600
+2002,Potential Loyalists,Medium,434,4,3,4,34320
+2003,Potential Loyalists,Premium,535,5,3,5,37050
+2004,Lost,Low,134,1,3,4,26460
+2005,New Customers,Low,511,5,1,1,20230
+2006,About To Sleep,Low,323,3,2,3,28560
+2007,Need Attention,Medium,342,3,4,2,24440
+2008,Lost,Medium,541,5,4,1,29640
+2009,Hibernating,Medium,225,2,2,5,31500
+2010,Hibernating,Medium,225,2,2,5,24900
+2011,Loyal Customers,Premium,554,5,5,4,32800
+2012,Lost,Low,133,1,3,3,20240
+2013,Lost,Medium,541,5,4,1,22100
+2014,Potential Loyalists,Premium,535,5,3,5,45630
+2015,Lost,Medium,451,4,5,1,31320
+2016,Need Attention,Medium,344,3,4,4,28220
+2017,Lost,Medium,451,4,5,1,28890
+2018,Lost,Low,114,1,1,4,20160
+2019,Need Attention,Premium,355,3,5,5,47970
+2020,Lost,Medium,432,4,3,2,22500
+2021,Loyal Customers,Premium,545,5,4,5,48720
+2022,Hibernating,Low,215,2,1,5,23490
+2023,At Risk,Medium,252,2,5,2,29970
+2024,Hibernating,Low,224,2,2,4,27560
+2025,About To Sleep,Low,313,3,1,3,18690
+2026,Lost,Medium,451,4,5,1,28620
+2027,Cant Lose Them,Medium,144,1,4,4,28500
+2028,Lost,Low,431,4,3,1,23940
+2029,New Customers,Medium,522,5,2,2,22080
+2030,Hibernating,Low,215,2,1,5,27540
+2031,Cant Lose Them,Low,143,1,4,3,21580
+2032,About To Sleep,Medium,324,3,2,4,24360
+2033,New Customers,Low,512,5,1,2,17640
+2034,Potential Loyalists,Medium,534,5,3,4,28000
+2035,At Risk,Medium,244,2,4,4,29760
+2036,Lost,Low,112,1,1,2,12480
+2037,Need Attention,Medium,343,3,4,3,24300
+2038,Lost,Medium,541,5,4,1,24440
+2039,Lost,Medium,452,4,5,2,25110
+2040,Hibernating,Low,213,2,1,3,16720
+2041,Promising,Medium,514,5,1,4,25230
+2042,Promising,Medium,523,5,2,3,27440
+2043,Promising,Medium,415,4,1,5,27280
+2044,At Risk,Low,241,2,4,1,19200
+2045,Lost,Medium,442,4,4,2,32480
+2046,About To Sleep,Medium,325,3,2,5,34880
+2047,About To Sleep,Low,323,3,2,3,28080
+2048,Lost,Medium,451,4,5,1,22410
+2049,Need Attention,Medium,351,3,5,1,27750
+2050,Lost,Medium,552,5,5,2,26730
+2051,Lost,Low,122,1,2,2,16800
+2052,Loyal Customers,Premium,544,5,4,4,32300
+2053,Lost,Medium,532,5,3,2,25380
+2054,Potential Loyalists,Medium,533,5,3,3,34410
+2055,Cant Lose Them,Medium,155,1,5,5,34780
+2056,Cant Lose Them,Low,143,1,4,3,28860
+2057,Potential Loyalists,Medium,435,4,3,5,36260
+2058,Hibernating,Low,215,2,1,5,27000
+2059,Loyal Customers,Premium,554,5,5,4,40590
+2060,Potential Loyalists,Medium,435,4,3,5,33670
+2061,At Risk,Medium,235,2,3,5,28050
+2062,About To Sleep,Medium,324,3,2,4,29680
+2063,At Risk,Medium,254,2,5,4,37450
+2064,Lost,Medium,432,4,3,2,23000
+2065,Promising,Medium,524,5,2,4,31680
+2066,Lost,Low,133,1,3,3,20010
+2067,Loyal Customers,Premium,554,5,5,4,36490
+2068,At Risk,Low,241,2,4,1,22600
+2069,Loyal Customers,Premium,445,4,4,5,44400
+2070,Promising,Medium,524,5,2,4,35200
+2071,About To Sleep,Low,322,3,2,2,23200
+2072,Lost,Low,123,1,2,3,16400
+2073,Need Attention,Medium,351,3,5,1,27750
+2074,Potential Loyalists,Medium,534,5,3,4,39900
+2075,Promising,Low,412,4,1,2,21470
+2076,Promising,Medium,524,5,2,4,29440
+2077,Cant Lose Them,Medium,153,1,5,3,26390
+2078,Hibernating,Low,213,2,1,3,19000
+2079,Lost,Low,121,1,2,1,14160
+2080,Potential Loyalists,Medium,443,4,4,3,37440
+2081,Hibernating,Medium,225,2,2,5,27000
+2082,Potential Loyalists,Medium,443,4,4,3,37120
+2083,Loyal Customers,Premium,445,4,4,5,34000
+2084,Promising,Medium,424,4,2,4,28800
+2085,Lost,Low,114,1,1,4,24990
+2086,Need Attention,Medium,345,3,4,5,32680
+2087,Lost,Low,131,1,3,1,12450
+2088,Loyal Customers,Premium,455,4,5,5,40420
+2089,At Risk,Medium,255,2,5,5,39000
+2090,Potential Loyalists,Premium,535,5,3,5,45240
+2091,Loyal Customers,Premium,445,4,4,5,45200
+2092,At Risk,Low,232,2,3,2,24360
+2093,Potential Loyalists,Medium,543,5,4,3,28220
+2094,Loyal Customers,Premium,554,5,5,4,47970
+2095,Lost,Low,112,1,1,2,12740
+2096,Promising,Medium,513,5,1,3,26500
+2097,Promising,Medium,414,4,1,4,29700
+2098,About To Sleep,Medium,325,3,2,5,27840
+2099,Promising,Low,421,4,2,1,20700
+2100,Cant Lose Them,Medium,153,1,5,3,30160
+2101,Promising,Low,411,4,1,1,17400
+2102,Promising,Low,422,4,2,2,25960
+2103,Lost,Low,112,1,1,2,11700
+2104,Promising,Low,422,4,2,2,19140
+2105,Loyal Customers,Medium,444,4,4,4,33120
+2106,At Risk,Low,242,2,4,2,23520
+2107,Lost,Medium,531,5,3,1,18860
+2108,Promising,Medium,523,5,2,3,32480
+2109,New Customers,Low,512,5,1,2,21000
+2110,About To Sleep,Low,311,3,1,1,12740
+2111,Hibernating,Low,221,2,2,1,11480
+2112,Promising,Medium,425,4,2,5,33660
+2113,Loyal Customers,Premium,545,5,4,5,44940
+2114,Need Attention,Premium,355,3,5,5,33210
+2115,Lost,Medium,551,5,5,1,26680
+2116,At Risk,Medium,245,2,4,5,31320
+2117,Lost,Low,113,1,1,3,19380
+2118,Potential Loyalists,Premium,535,5,3,5,40950
+2119,Lost,Low,123,1,2,3,20200
+2120,At Risk,Low,242,2,4,2,24000
+2121,At Risk,Medium,245,2,4,5,35280
+2122,Lost,Low,124,1,2,4,25440
+2123,About To Sleep,Low,313,3,1,3,18270
+2124,New Customers,Low,512,5,1,2,19110
+2125,Need Attention,Low,341,3,4,1,18920
+2126,About To Sleep,Low,323,3,2,3,22800
+2127,Lost,Low,125,1,2,5,29960
+2128,Need Attention,Medium,345,3,4,5,30400
+2129,Need Attention,Medium,333,3,3,3,22140
+2130,Promising,Low,413,4,1,3,19550
+2131,Lost,Medium,551,5,5,1,29580
+2132,Need Attention,Low,332,3,3,2,26680
+2133,New Customers,Medium,522,5,2,2,22320
+2134,Lost,Low,131,1,3,1,15750
+2135,At Risk,Medium,235,2,3,5,38610
+2136,About To Sleep,Medium,324,3,2,4,25200
+2137,Promising,Medium,425,4,2,5,31620
+2138,About To Sleep,Medium,315,3,1,5,30160
+2139,About To Sleep,Low,323,3,2,3,28560
+2140,Promising,Medium,424,4,2,4,24900
+2141,About To Sleep,Medium,324,3,2,4,28000
+2142,Cant Lose Them,Low,152,1,5,2,27250
+2143,Loyal Customers,Premium,454,4,5,4,42900
+2144,Lost,Low,132,1,3,2,22230
+2145,Promising,Medium,515,5,1,5,35310
+2146,Lost,Medium,552,5,5,2,30360
+2147,Lost,Low,122,1,2,2,17760
+2148,Need Attention,Medium,351,3,5,1,23500
+2149,Lost,Low,111,1,1,1,9900
+2150,At Risk,Medium,252,2,5,2,24570
+2151,Cant Lose Them,Medium,145,1,4,5,28900
+2152,At Risk,Medium,234,2,3,4,30450
+2153,Lost,Low,115,1,1,5,20750
+2154,Promising,Low,422,4,2,2,18700
+2155,Loyal Customers,Premium,455,4,5,5,39130
+2156,Lost,Low,114,1,1,4,19950
+2157,Loyal Customers,Premium,545,5,4,5,33600
+2158,At Risk,Low,231,2,3,1,17170
+2159,At Risk,Low,241,2,4,1,20600
+2160,At Risk,Medium,235,2,3,5,34320
+2161,Cant Lose Them,Low,141,1,4,1,17820
+2162,Lost,Low,113,1,1,3,16830
+2163,Need Attention,Medium,345,3,4,5,33440
+2164,Promising,Medium,514,5,1,4,28130
+2165,At Risk,Low,251,2,5,1,27140
+2166,Promising,Low,421,4,2,1,19080
+2167,Promising,Low,421,4,2,1,18180
+2168,Cant Lose Them,Medium,145,1,4,5,34000
+2169,Need Attention,Low,332,3,3,2,23920
+2170,Hibernating,Medium,225,2,2,5,32100
+2171,About To Sleep,Low,322,3,2,2,20600
+2172,Need Attention,Medium,353,3,5,3,28050
+2173,About To Sleep,Low,314,3,1,4,26500
+2174,Cant Lose Them,Low,141,1,4,1,20700
+2175,Promising,Medium,524,5,2,4,25920
+2176,Lost,Low,115,1,1,5,25250
+2177,Lost,Low,114,1,1,4,17430
+2178,Promising,Low,421,4,2,1,20880
+2179,Hibernating,Low,222,2,2,2,19980
+2180,About To Sleep,Low,313,3,1,3,16800
+2181,Cant Lose Them,Medium,153,1,5,3,28130
+2182,Hibernating,Low,224,2,2,4,27300
+2183,Promising,Medium,523,5,2,3,31360
+2184,Lost,Medium,442,4,4,2,31080
+2185,Lost,Low,115,1,1,5,26750
+2186,At Risk,Low,242,2,4,2,20880
+2187,About To Sleep,Medium,315,3,1,5,23780
+2188,Hibernating,Low,211,2,1,1,12100
+2189,At Risk,Low,231,2,3,1,19720
+2190,Need Attention,Premium,355,3,5,5,47150
+2191,Need Attention,Medium,351,3,5,1,27750
+2192,At Risk,Medium,252,2,5,2,29700
+2193,At Risk,Medium,244,2,4,4,30720
+2194,Cant Lose Them,Low,141,1,4,1,14940
+2195,Need Attention,Medium,345,3,4,5,45220
+2196,Hibernating,Medium,225,2,2,5,24600
+2197,At Risk,Low,233,2,3,3,24000
+2198,Loyal Customers,Premium,454,4,5,4,40170
+2199,Cant Lose Them,Medium,144,1,4,4,31200
+2200,Need Attention,Medium,335,3,3,5,32900
+2201,About To Sleep,Medium,324,3,2,4,27440
+2202,Need Attention,Low,331,3,3,1,17860
+2203,Promising,Medium,415,4,1,5,36270
+2204,Need Attention,Low,332,3,3,2,19550
+2205,Promising,Low,411,4,1,1,17850
+2206,At Risk,Medium,244,2,4,4,38080
+2207,About To Sleep,Medium,325,3,2,5,32320
+2208,Cant Lose Them,Medium,153,1,5,3,24650
+2209,Promising,Medium,514,5,1,4,24940
+2210,Loyal Customers,Premium,445,4,4,5,44400
+2211,Hibernating,Low,213,2,1,3,15390
+2212,At Risk,Medium,245,2,4,5,41760
+2213,Cant Lose Them,Low,152,1,5,2,24250
+2214,About To Sleep,Medium,325,3,2,5,31680
+2215,About To Sleep,Low,321,3,2,1,17280
+2216,Cant Lose Them,Medium,155,1,5,5,40330
+2217,Promising,Low,412,4,1,2,17290
+2218,Lost,Low,133,1,3,3,25070
+2219,Potential Loyalists,Premium,553,5,5,3,31820
+2220,Lost,Medium,552,5,5,2,35970
+2221,Cant Lose Them,Medium,145,1,4,5,40120
+2222,At Risk,Medium,234,2,3,4,30450
+2223,Hibernating,Low,211,2,1,1,12980
+2224,Lost,Low,134,1,3,4,21870
+2225,Potential Loyalists,Medium,433,4,3,3,26680
+2226,Cant Lose Them,Medium,153,1,5,3,28130
+2227,Lost,Medium,532,5,3,2,23490
+2228,Potential Loyalists,Medium,533,5,3,3,27900
+2229,Potential Loyalists,Medium,443,4,4,3,28800
+2230,Hibernating,Low,222,2,2,2,19620
+2231,Promising,Medium,523,5,2,3,32200
+2232,Lost,Low,115,1,1,5,27000
+2233,Lost,Low,112,1,1,2,11440
+2234,Promising,Medium,524,5,2,4,28800
+2235,Promising,Medium,513,5,1,3,23500
+2236,Loyal Customers,Premium,554,5,5,4,46330
+2237,Hibernating,Low,213,2,1,3,17480
+2238,Promising,Medium,515,5,1,5,35970
+2239,Potential Loyalists,Premium,553,5,5,3,33300
+2240,Hibernating,Medium,225,2,2,5,29100
+2241,Hibernating,Low,211,2,1,1,11440
+2242,Potential Loyalists,Medium,534,5,3,4,32550
+2243,Cant Lose Them,Low,143,1,4,3,29640
+2244,Lost,Medium,452,4,5,2,31620
+2245,Lost,Low,132,1,3,2,21280
+2246,Lost,Medium,542,5,4,2,34200
+2247,Lost,Medium,452,4,5,2,30380
+2248,At Risk,Low,232,2,3,2,18900
+2249,Lost,Low,113,1,1,3,19720
+2250,About To Sleep,Medium,324,3,2,4,24920
+2251,Lost,Medium,135,1,3,5,27900
+2252,Need Attention,Low,331,3,3,1,20330
+2253,Lost,Low,131,1,3,1,16950
+2254,At Risk,Low,242,2,4,2,21600
+2255,New Customers,Low,511,5,1,1,16830
+2256,Hibernating,Low,221,2,2,1,16240
+2257,Lost,Medium,441,4,4,1,21840
+2258,Loyal Customers,Premium,544,5,4,4,31160
+2259,Promising,Low,413,4,1,3,18630
+2260,Promising,Low,422,4,2,2,25520
+2261,Potential Loyalists,Medium,533,5,3,3,35960
+2262,Promising,Medium,515,5,1,5,30360
+2263,Lost,Medium,432,4,3,2,20000
+2264,Hibernating,Low,215,2,1,5,29430
+2265,Potential Loyalists,Premium,535,5,3,5,34320
+2266,Hibernating,Low,221,2,2,1,11480
+2267,Need Attention,Medium,352,3,5,2,26100
+2268,Cant Lose Them,Low,142,1,4,2,24860
+2269,New Customers,Low,512,5,1,2,17430
+2270,Hibernating,Low,212,2,1,2,15450
+2271,New Customers,Low,521,5,2,1,16000
+2272,Hibernating,Low,214,2,1,4,18400
+2273,Loyal Customers,Premium,455,4,5,5,50740
+2274,Hibernating,Medium,225,2,2,5,30000
+2275,About To Sleep,Low,321,3,2,1,17280
+2276,At Risk,Low,251,2,5,1,26680
+2277,Lost,Low,111,1,1,1,10350
+2278,Loyal Customers,Premium,445,4,4,5,44400
+2279,About To Sleep,Low,322,3,2,2,20800
+2280,Potential Loyalists,Medium,534,5,3,4,39550
+2281,At Risk,Low,232,2,3,2,18060
+2282,Hibernating,Low,214,2,1,4,22080
+2283,Lost,Low,115,1,1,5,26000
+2284,New Customers,Medium,522,5,2,2,22080
+2285,Hibernating,Low,215,2,1,5,22410
+2286,Promising,Low,413,4,1,3,26680
+2287,Potential Loyalists,Medium,435,4,3,5,29970
+2288,New Customers,Medium,522,5,2,2,28080
+2289,Promising,Medium,423,4,2,3,30940
+2290,Promising,Medium,424,4,2,4,24000
+2291,New Customers,Low,521,5,2,1,19800
+2292,Cant Lose Them,Medium,145,1,4,5,37400
+2293,Need Attention,Medium,342,3,4,2,29640
+2294,At Risk,Medium,254,2,5,4,39550
+2295,New Customers,Low,512,5,1,2,23520
+2296,Promising,Low,412,4,1,2,22610
+2297,Promising,Low,413,4,1,3,24150
+2298,Lost,Medium,452,4,5,2,28210
+2299,About To Sleep,Low,311,3,1,1,12090
+2300,Need Attention,Medium,352,3,5,2,24360
+2301,Lost,Low,131,1,3,1,17100
+2302,At Risk,Medium,253,2,5,3,32550
+2303,Promising,Medium,425,4,2,5,36380
+2304,Potential Loyalists,Medium,435,4,3,5,41440
+2305,Need Attention,Medium,342,3,4,2,27820
+2306,About To Sleep,Medium,315,3,1,5,29870
+2307,Potential Loyalists,Medium,534,5,3,4,34650
+2308,Promising,Medium,513,5,1,3,23500
+2309,Cant Lose Them,Low,143,1,4,3,28340
+2310,Potential Loyalists,Medium,543,5,4,3,33660
+2311,At Risk,Medium,245,2,4,5,42480
+2312,Lost,Medium,552,5,5,2,29040
+2313,Need Attention,Premium,355,3,5,5,47970
+2314,Loyal Customers,Premium,454,4,5,4,41340
+2315,Cant Lose Them,Low,151,1,5,1,19320
+2316,Need Attention,Medium,344,3,4,4,38080
+2317,Lost,Low,111,1,1,1,9540
+2318,Potential Loyalists,Premium,553,5,5,3,29970
+2319,Hibernating,Low,224,2,2,4,30420
+2320,Cant Lose Them,Low,143,1,4,3,26520
+2321,Promising,Medium,425,4,2,5,32300
+2322,Need Attention,Low,332,3,3,2,23690
+2323,Promising,Medium,523,5,2,3,23520
+2324,Lost,Medium,532,5,3,2,21870
+2325,Need Attention,Medium,343,3,4,3,34200
+2326,Need Attention,Medium,343,3,4,3,30000
+2327,Lost,Medium,441,4,4,1,23040
+2328,Cant Lose Them,Low,151,1,5,1,21000
+2329,At Risk,Medium,244,2,4,4,29440
+2330,Potential Loyalists,Medium,533,5,3,3,36580
+2331,Promising,Low,422,4,2,2,25300
+2332,Lost,Low,125,1,2,5,22680
+2333,Promising,Low,412,4,1,2,15390
+2334,Cant Lose Them,Low,151,1,5,1,23520
+2335,Promising,Low,412,4,1,2,18620
+2336,Cant Lose Them,Medium,154,1,5,4,32340
+2337,Potential Loyalists,Medium,453,4,5,3,31500
+2338,Potential Loyalists,Medium,435,4,3,5,30340
+2339,About To Sleep,Medium,324,3,2,4,26600
+2340,Lost,Low,121,1,2,1,13920
+2341,At Risk,Medium,243,2,4,3,22960
+2342,Promising,Low,421,4,2,1,18180
+2343,Lost,Medium,441,4,4,1,20160
+2344,Lost,Low,112,1,1,2,15470
+2345,About To Sleep,Low,321,3,2,1,14720
+2346,Lost,Medium,531,5,3,1,25300
+2347,Hibernating,Low,223,2,2,3,25300
+2348,About To Sleep,Low,322,3,2,2,19600
+2349,Lost,Medium,441,4,4,1,25200
+2350,Potential Loyalists,Medium,434,4,3,4,36960
+2351,About To Sleep,Low,311,3,1,1,10530
+2352,Promising,Medium,414,4,1,4,21870
+2353,Need Attention,Medium,354,3,5,4,29970
+2354,New Customers,Low,521,5,2,1,21200
+2355,Loyal Customers,Premium,544,5,4,4,32300
+2356,Hibernating,Low,211,2,1,1,11880
+2357,Hibernating,Low,213,2,1,3,16530
+2358,Promising,Medium,525,5,2,5,31680
+2359,At Risk,Low,232,2,3,2,24150
+2360,Cant Lose Them,Medium,154,1,5,4,36960
+2361,Potential Loyalists,Premium,553,5,5,3,35150
+2362,About To Sleep,Low,313,3,1,3,19740
+2363,Hibernating,Low,212,2,1,2,15750
+2364,Promising,Low,413,4,1,3,19550
+2365,Loyal Customers,Premium,544,5,4,4,35720
+2366,At Risk,Medium,234,2,3,4,27840
+2367,Cant Lose Them,Low,143,1,4,3,23400
+2368,Hibernating,Low,211,2,1,1,9240
+2369,Lost,Low,431,4,3,1,18270
+2370,At Risk,Low,251,2,5,1,25070
+2371,Lost,Low,125,1,2,5,26040
+2372,New Customers,Low,511,5,1,1,15640
+2373,About To Sleep,Medium,324,3,2,4,26040
+2374,At Risk,Medium,243,2,4,3,26320
+2375,Promising,Low,421,4,2,1,20880
+2376,Lost,Medium,552,5,5,2,38280
+2377,Lost,Medium,442,4,4,2,28840
+2378,Hibernating,Low,222,2,2,2,15660
+2379,Need Attention,Low,332,3,3,2,20930
+2380,Promising,Low,411,4,1,1,12900
+2381,Potential Loyalists,Medium,435,4,3,5,34410
+2382,Promising,Low,421,4,2,1,15300
+2383,Loyal Customers,Premium,455,4,5,5,44720
+2384,Lost,Medium,542,5,4,2,30300
+2385,At Risk,Medium,254,2,5,4,35350
+2386,Lost,Low,123,1,2,3,21000
+2387,Loyal Customers,Premium,544,5,4,4,36100
+2388,Lost,Low,131,1,3,1,13500
+2389,Lost,Medium,532,5,3,2,25650
+2390,Promising,Low,411,4,1,1,15150
+2391,Need Attention,Medium,342,3,4,2,26520
+2392,Lost,Low,114,1,1,4,20160
+2393,Lost,Low,123,1,2,3,19000
+2394,Need Attention,Medium,354,3,5,4,43660
+2395,Cant Lose Them,Medium,154,1,5,4,30360
+2396,About To Sleep,Medium,325,3,2,5,35520
+2397,At Risk,Medium,254,2,5,4,35350
+2398,Lost,Medium,532,5,3,2,24840
+2399,Need Attention,Medium,334,3,3,4,27280
+2400,Lost,Low,124,1,2,4,24480
+2401,Loyal Customers,Medium,444,4,4,4,41760
+2402,At Risk,Medium,254,2,5,4,30100
+2403,Promising,Medium,415,4,1,5,31000
+2404,Potential Loyalists,Premium,553,5,5,3,34040
+2405,At Risk,Low,233,2,3,3,29000
+2406,Need Attention,Medium,354,3,5,4,35150
+2407,Loyal Customers,Premium,545,5,4,5,39480
+2408,Promising,Medium,513,5,1,3,20000
+2409,New Customers,Low,512,5,1,2,18900
+2410,Promising,Medium,415,4,1,5,36270
+2411,Promising,Low,421,4,2,1,16920
+2412,Promising,Medium,524,5,2,4,32320
+2413,Potential Loyalists,Medium,534,5,3,4,31500
+2414,Lost,Medium,442,4,4,2,22960
+2415,Loyal Customers,Premium,445,4,4,5,32800
+2416,Cant Lose Them,Medium,145,1,4,5,34000
+2417,At Risk,Low,242,2,4,2,25920
+2418,Potential Loyalists,Premium,553,5,5,3,31820
+2419,Lost,Low,123,1,2,3,19800
+2420,Promising,Medium,513,5,1,3,21750
+2421,Potential Loyalists,Medium,534,5,3,4,38500
+2422,Cant Lose Them,Medium,144,1,4,4,29700
+2423,Promising,Medium,414,4,1,4,29970
+2424,New Customers,Low,511,5,1,1,18870
+2425,Hibernating,Medium,225,2,2,5,32700
+2426,Cant Lose Them,Medium,144,1,4,4,27300
+2427,Need Attention,Premium,355,3,5,5,48790
+2428,Need Attention,Premium,355,3,5,5,40590
+2429,Lost,Low,431,4,3,1,18270
+2430,New Customers,Low,521,5,2,1,21000
+2431,New Customers,Low,512,5,1,2,24360
+2432,Lost,Medium,442,4,4,2,24640
+2433,Promising,Medium,425,4,2,5,31280
+2434,At Risk,Low,251,2,5,1,18630
+2435,Loyal Customers,Premium,544,5,4,4,36860
+2436,At Risk,Medium,244,2,4,4,29440
+2437,At Risk,Medium,252,2,5,2,30510
+2438,Need Attention,Low,332,3,3,2,27140
+2439,Hibernating,Low,211,2,1,1,10120
+2440,About To Sleep,Medium,325,3,2,5,37120
+2441,Promising,Medium,524,5,2,4,29440
+2442,Hibernating,Low,211,2,1,1,13090
+2443,Potential Loyalists,Medium,433,4,3,3,31610
+2444,Lost,Low,122,1,2,2,13600
+2445,About To Sleep,Low,321,3,2,1,18400
+2446,At Risk,Low,251,2,5,1,24610
+2447,Need Attention,Low,341,3,4,1,19140
+2448,Lost,Low,133,1,3,3,19320
+2449,Need Attention,Low,331,3,3,1,15200
+2450,Potential Loyalists,Medium,434,4,3,4,31680
+2451,Hibernating,Low,224,2,2,4,26000
+2452,About To Sleep,Low,313,3,1,3,21630
+2453,Loyal Customers,Medium,444,4,4,4,30600
+2454,Promising,Low,412,4,1,2,16150
+2455,Lost,Medium,551,5,5,1,24940
+2456,Promising,Low,421,4,2,1,17280
+2457,Cant Lose Them,Low,143,1,4,3,25480
+2458,Need Attention,Medium,335,3,3,5,28350
+2459,At Risk,Low,231,2,3,1,15640
+2460,Potential Loyalists,Medium,453,4,5,3,35350
+2461,Hibernating,Low,211,2,1,1,9460
+2462,Potential Loyalists,Medium,533,5,3,3,31620
+2463,Lost,Low,431,4,3,1,19320
+2464,At Risk,Medium,235,2,3,5,34980
+2465,Lost,Low,111,1,1,1,9000
+2466,Potential Loyalists,Medium,534,5,3,4,31850
+2467,Lost,Low,121,1,2,1,12720
+2468,Loyal Customers,Medium,444,4,4,4,36720
+2469,Lost,Low,114,1,1,4,21840
+2470,Hibernating,Low,215,2,1,5,30780
+2471,At Risk,Low,233,2,3,3,21750
+2472,Potential Loyalists,Premium,535,5,3,5,37050
+2473,Need Attention,Medium,354,3,5,4,37000
+2474,Loyal Customers,Premium,545,5,4,5,47040
+2475,Lost,Low,122,1,2,2,19040
+2476,Cant Lose Them,Medium,153,1,5,3,27260
+2477,At Risk,Medium,255,2,5,5,43680
+2478,Hibernating,Low,224,2,2,4,23140
+2479,Promising,Medium,424,4,2,4,34200
+2480,Lost,Low,431,4,3,1,23100
+2481,Cant Lose Them,Low,151,1,5,1,17430
+2482,New Customers,Low,512,5,1,2,18270
+2483,Promising,Low,411,4,1,1,14100
+2484,New Customers,Low,521,5,2,1,18200
+2485,At Risk,Low,241,2,4,1,21200
+2486,Promising,Low,422,4,2,2,19360
+2487,Promising,Medium,414,4,1,4,26190
+2488,Promising,Low,413,4,1,3,19780
+2489,Hibernating,Low,213,2,1,3,21470
+2490,Lost,Low,133,1,3,3,18400
+2491,Promising,Medium,524,5,2,4,32960
+2492,About To Sleep,Medium,315,3,1,5,24940
+2493,About To Sleep,Low,312,3,1,2,19550
+2494,Promising,Medium,423,4,2,3,23660
+2495,At Risk,Low,231,2,3,1,15130
+2496,Promising,Medium,415,4,1,5,26040
+2497,New Customers,Medium,522,5,2,2,22560
+2498,Promising,Medium,414,4,1,4,22680
+2499,Cant Lose Them,Medium,155,1,5,5,39960
+2500,At Risk,Low,242,2,4,2,25440
+2501,Need Attention,Medium,352,3,5,2,33930
+2502,New Customers,Medium,522,5,2,2,24000
+2503,Lost,Medium,551,5,5,1,26100
+2504,About To Sleep,Low,321,3,2,1,13600
+2505,Need Attention,Low,331,3,3,1,18620
+2506,About To Sleep,Low,312,3,1,2,14450
+2507,Need Attention,Low,332,3,3,2,27140
+2508,New Customers,Low,511,5,1,1,14620
+2509,Hibernating,Low,224,2,2,4,22880
+2510,About To Sleep,Medium,315,3,1,5,28710
+2511,Promising,Medium,514,5,1,4,29290
+2512,Lost,Low,124,1,2,4,27600
+2513,Promising,Medium,423,4,2,3,29120
+2514,Loyal Customers,Premium,445,4,4,5,47600
+2515,At Risk,Low,241,2,4,1,23600
+2516,About To Sleep,Low,311,3,1,1,11570
+2517,New Customers,Low,521,5,2,1,16200
+2518,Promising,Medium,525,5,2,5,40320
+2519,Loyal Customers,Premium,554,5,5,4,41410
+2520,Hibernating,Low,223,2,2,3,24200
+2521,At Risk,Medium,234,2,3,4,27550
+2522,Lost,Low,112,1,1,2,12220
+2523,Promising,Medium,514,5,1,4,34220
+2524,Hibernating,Low,221,2,2,1,15120
+2525,Cant Lose Them,Low,151,1,5,1,24360
+2526,Lost,Low,122,1,2,2,18560
+2527,Potential Loyalists,Medium,534,5,3,4,28350
+2528,Loyal Customers,Premium,455,4,5,5,46870
+2529,New Customers,Low,512,5,1,2,16800
+2530,Need Attention,Medium,335,3,3,5,28700
+2531,Potential Loyalists,Medium,433,4,3,3,33640
+2532,New Customers,Low,521,5,2,1,21200
+2533,Lost,Low,122,1,2,2,18400
+2534,At Risk,Low,232,2,3,2,19320
+2535,New Customers,Medium,522,5,2,2,24720
+2536,Lost,Low,121,1,2,1,12240
+2537,Lost,Medium,452,4,5,2,32860
+2538,Promising,Medium,423,4,2,3,24440
+2539,Loyal Customers,Premium,445,4,4,5,43200
+2540,Promising,Low,422,4,2,2,18920
+2541,At Risk,Low,233,2,3,3,29750
+2542,Promising,Medium,515,5,1,5,34980
+2543,Lost,Low,124,1,2,4,25440
+2544,Potential Loyalists,Medium,543,5,4,3,31620
+2545,New Customers,Medium,522,5,2,2,26880
+2546,Lost,Medium,551,5,5,1,25230
+2547,Hibernating,Low,222,2,2,2,18360
+2548,Hibernating,Low,223,2,2,3,21340
+2549,Lost,Low,133,1,3,3,27370
+2550,New Customers,Low,511,5,1,1,19550
+2551,New Customers,Low,521,5,2,1,23200
+2552,Loyal Customers,Premium,455,4,5,5,41280
+2553,Lost,Medium,442,4,4,2,29400
+2554,At Risk,Low,241,2,4,1,18600
+2555,Promising,Medium,425,4,2,5,31280
+2556,Lost,Low,431,4,3,1,23730
+2557,At Risk,Medium,255,2,5,5,46020
+2558,Need Attention,Medium,335,3,3,5,35700
+2559,New Customers,Low,521,5,2,1,17600
+2560,Hibernating,Low,221,2,2,1,14980
+2561,Cant Lose Them,Medium,155,1,5,5,36630
+2562,Promising,Low,412,4,1,2,16720
+2563,Hibernating,Low,214,2,1,4,26220
+2564,Need Attention,Low,341,3,4,1,21780
+2565,At Risk,Low,233,2,3,3,22250
+2566,Hibernating,Low,211,2,1,1,12870
+2567,Need Attention,Medium,354,3,5,4,41070
+2568,Hibernating,Low,224,2,2,4,21060
+2569,Potential Loyalists,Medium,533,5,3,3,35030
+2570,Promising,Medium,415,4,1,5,31000
+2571,Promising,Medium,515,5,1,5,26400
+2572,Promising,Low,421,4,2,1,18000
+2573,Cant Lose Them,Medium,155,1,5,5,40700
+2574,Cant Lose Them,Medium,153,1,5,3,31610
+2575,At Risk,Medium,234,2,3,4,24940
+2576,Promising,Medium,423,4,2,3,30940
+2577,Lost,Medium,451,4,5,1,25110
+2578,About To Sleep,Low,321,3,2,1,12960
+2579,About To Sleep,Low,323,3,2,3,22080
+2580,About To Sleep,Low,312,3,1,2,16490
+2581,Lost,Low,123,1,2,3,22600
+2582,Potential Loyalists,Medium,533,5,3,3,34100
+2583,About To Sleep,Low,322,3,2,2,22400
+2584,Potential Loyalists,Medium,443,4,4,3,28160
+2585,At Risk,Low,242,2,4,2,19200
+2586,New Customers,Low,512,5,1,2,16800
+2587,Need Attention,Medium,351,3,5,1,23000
+2588,About To Sleep,Low,313,3,1,3,18060
+2589,About To Sleep,Low,312,3,1,2,19040
+2590,Lost,Low,124,1,2,4,21120
+2591,Need Attention,Medium,352,3,5,2,27260
+2592,Lost,Medium,531,5,3,1,26450
+2593,Need Attention,Medium,354,3,5,4,42180
+2594,New Customers,Low,511,5,1,1,15470
+2595,Need Attention,Medium,343,3,4,3,28200
+2596,Need Attention,Medium,343,3,4,3,26400
+2597,Lost,Medium,532,5,3,2,21870
+2598,Lost,Medium,542,5,4,2,32400
+2599,Lost,Medium,541,5,4,1,28600
+2600,At Risk,Medium,234,2,3,4,26680
+2601,Need Attention,Medium,344,3,4,4,40460
+2602,Promising,Medium,523,5,2,3,27720
+2603,Need Attention,Medium,344,3,4,4,40120
+2604,About To Sleep,Low,314,3,1,4,25250
+2605,New Customers,Low,512,5,1,2,24780
+2606,At Risk,Medium,254,2,5,4,39200
+2607,Promising,Low,411,4,1,1,15750
+2608,Lost,Low,123,1,2,3,21400
+2609,Potential Loyalists,Premium,535,5,3,5,35100
+2610,Potential Loyalists,Medium,443,4,4,3,33920
+2611,Cant Lose Them,Medium,153,1,5,3,24360
+2612,Champions,Premium,555,5,5,5,43650
+2613,Potential Loyalists,Medium,533,5,3,3,24800
+2614,Hibernating,Medium,225,2,2,5,29700
+2615,Hibernating,Low,215,2,1,5,29160
+2616,Cant Lose Them,Medium,144,1,4,4,29400
+2617,Cant Lose Them,Medium,153,1,5,3,28420
+2618,Cant Lose Them,Medium,155,1,5,5,30340
+2619,Promising,Medium,414,4,1,4,27000
+2620,Promising,Medium,423,4,2,3,21320
+2621,Potential Loyalists,Medium,443,4,4,3,36800
+2622,Potential Loyalists,Medium,543,5,4,3,30260
+2623,Need Attention,Medium,344,3,4,4,36380
+2624,Promising,Medium,524,5,2,4,25920
+2625,Need Attention,Medium,353,3,5,3,30030
+2626,Loyal Customers,Premium,455,4,5,5,43000
+2627,Potential Loyalists,Medium,534,5,3,4,31500
+2628,Lost,Medium,135,1,3,5,25110
+2629,Promising,Low,422,4,2,2,24640
+2630,About To Sleep,Low,322,3,2,2,17800
+2631,New Customers,Medium,522,5,2,2,26640
+2632,Loyal Customers,Medium,444,4,4,4,34200
+2633,Potential Loyalists,Medium,443,4,4,3,32640
+2634,Hibernating,Low,213,2,1,3,21280
+2635,Promising,Low,411,4,1,1,17700
+2636,Lost,Low,125,1,2,5,27160
+2637,Need Attention,Medium,344,3,4,4,27200
+2638,New Customers,Low,512,5,1,2,24150
+2639,Loyal Customers,Premium,544,5,4,4,32680
+2640,Potential Loyalists,Medium,534,5,3,4,37800
+2641,Need Attention,Low,332,3,3,2,20700
+2642,About To Sleep,Low,312,3,1,2,17170
+2643,Lost,Medium,551,5,5,1,26680
+2644,Lost,Medium,552,5,5,2,28380
+2645,Loyal Customers,Premium,455,4,5,5,40420
+2646,Promising,Medium,414,4,1,4,30780
+2647,Lost,Low,112,1,1,2,12220
+2648,Cant Lose Them,Low,141,1,4,1,19260
+2649,Promising,Medium,424,4,2,4,24900
+2650,Need Attention,Low,331,3,3,1,17670
+2651,Promising,Low,422,4,2,2,21340
+2652,Lost,Low,123,1,2,3,22400
+2653,Lost,Low,125,1,2,5,28280
+2654,Lost,Medium,532,5,3,2,25650
+2655,Promising,Medium,514,5,1,4,29290
+2656,Promising,Medium,414,4,1,4,30780
+2657,Lost,Low,113,1,1,3,16830
+2658,Potential Loyalists,Medium,533,5,3,3,28210
+2659,Promising,Medium,414,4,1,4,31590
+2660,Lost,Low,122,1,2,2,16960
+2661,Hibernating,Low,212,2,1,2,13800
+2662,Potential Loyalists,Premium,553,5,5,3,38110
+2663,Loyal Customers,Premium,544,5,4,4,32680
+2664,Lost,Medium,432,4,3,2,23500
+2665,At Risk,Low,231,2,3,1,17510
+2666,Cant Lose Them,Low,142,1,4,2,22880
+2667,About To Sleep,Low,321,3,2,1,18880
+2668,Hibernating,Low,223,2,2,3,21560
+2669,Cant Lose Them,Medium,153,1,5,3,31030
+2670,Promising,Medium,514,5,1,4,34510
+2671,Hibernating,Low,224,2,2,4,24960
+2672,At Risk,Low,232,2,3,2,21630
+2673,At Risk,Medium,253,2,5,3,33170
+2674,Hibernating,Low,224,2,2,4,23920
+2675,Need Attention,Medium,333,3,3,3,31590
+2676,At Risk,Medium,235,2,3,5,29040
+2677,Hibernating,Low,213,2,1,3,16910
+2678,Lost,Medium,451,4,5,1,29160
+2679,Need Attention,Medium,334,3,3,4,29760
+2680,Potential Loyalists,Premium,553,5,5,3,33300
+2681,Potential Loyalists,Medium,443,4,4,3,28160
+2682,Loyal Customers,Premium,445,4,4,5,37600
+2683,Lost,Medium,531,5,3,1,27370
+2684,Lost,Low,133,1,3,3,25530
+2685,About To Sleep,Low,322,3,2,2,23000
+2686,Hibernating,Low,212,2,1,2,12450
+2687,Cant Lose Them,Low,143,1,4,3,26520
+2688,New Customers,Medium,522,5,2,2,23280
+2689,Promising,Medium,424,4,2,4,34800
+2690,Hibernating,Low,212,2,1,2,17850
+2691,Cant Lose Them,Low,143,1,4,3,26780
+2692,Potential Loyalists,Medium,534,5,3,4,40950
+2693,Loyal Customers,Premium,544,5,4,4,36100
+2694,Hibernating,Low,222,2,2,2,16020
+2695,Lost,Low,124,1,2,4,22560
+2696,Potential Loyalists,Medium,533,5,3,3,31620
+2697,Need Attention,Medium,351,3,5,1,20250
+2698,Need Attention,Medium,352,3,5,2,24940
+2699,Lost,Medium,551,5,5,1,31900
+2700,Lost,Medium,532,5,3,2,29700
+2701,Cant Lose Them,Medium,145,1,4,5,33660
+2702,Potential Loyalists,Medium,534,5,3,4,37800
+2703,Lost,Medium,532,5,3,2,31050
+2704,Promising,Medium,415,4,1,5,26970
+2705,Potential Loyalists,Medium,443,4,4,3,28800
+2706,Promising,Medium,525,5,2,5,29520
+2707,Cant Lose Them,Low,152,1,5,2,25250
+2708,New Customers,Low,511,5,1,1,19380
+2709,At Risk,Medium,253,2,5,3,30690
+2710,About To Sleep,Low,311,3,1,1,14430
+2711,Cant Lose Them,Low,141,1,4,1,18540
+2712,Champions,Premium,555,5,5,5,52200
+2713,At Risk,Medium,245,2,4,5,41040
+2714,Lost,Low,122,1,2,2,19040
+2715,Potential Loyalists,Medium,543,5,4,3,40460
+2716,At Risk,Low,231,2,3,1,15980
+2717,Promising,Medium,425,4,2,5,31620
+2718,Potential Loyalists,Medium,435,4,3,5,39590
+2719,At Risk,Medium,234,2,3,4,28710
+2720,Need Attention,Low,331,3,3,1,15960
+2721,At Risk,Medium,254,2,5,4,38850
+2722,Promising,Medium,513,5,1,3,21000
+2723,Cant Lose Them,Low,141,1,4,1,14940
+2724,Cant Lose Them,Low,142,1,4,2,19580
+2725,Champions,Premium,555,5,5,5,37800
+2726,At Risk,Medium,254,2,5,4,28350
+2727,Need Attention,Medium,353,3,5,3,27390
+2728,Need Attention,Medium,352,3,5,2,26390
+2729,At Risk,Low,232,2,3,2,24360
+2730,Need Attention,Medium,344,3,4,4,34000
+2731,New Customers,Low,521,5,2,1,18200
+2732,About To Sleep,Low,312,3,1,2,16660
+2733,New Customers,Low,512,5,1,2,21840
+2734,About To Sleep,Medium,325,3,2,5,29440
+2735,Lost,Low,121,1,2,1,11160
+2736,Lost,Medium,441,4,4,1,20640
+2737,About To Sleep,Medium,315,3,1,5,25230
+2738,Promising,Medium,525,5,2,5,30240
+2739,Promising,Low,421,4,2,1,18000
+2740,Promising,Medium,425,4,2,5,35700
+2741,Lost,Medium,432,4,3,2,28500
+2742,Loyal Customers,Premium,545,5,4,5,38220
+2743,About To Sleep,Low,311,3,1,1,10660
+2744,Lost,Medium,442,4,4,2,26040
+2745,Promising,Medium,525,5,2,5,40680
+2746,Cant Lose Them,Low,142,1,4,2,18040
+2747,Promising,Medium,423,4,2,3,28600
+2748,Promising,Medium,524,5,2,4,34880
+2749,Lost,Medium,551,5,5,1,33060
+2750,Need Attention,Medium,343,3,4,3,25500
+2751,Lost,Low,134,1,3,4,30510
+2752,Promising,Medium,414,4,1,4,29430
+2753,Need Attention,Medium,351,3,5,1,20500
+2754,Lost,Low,122,1,2,2,14880
+2755,Lost,Medium,532,5,3,2,27270
+2756,Need Attention,Medium,335,3,3,5,34650
+2757,About To Sleep,Low,312,3,1,2,18870
+2758,At Risk,Low,232,2,3,2,19110
+2759,About To Sleep,Low,312,3,1,2,20230
+2760,Potential Loyalists,Medium,543,5,4,3,34340
+2761,Need Attention,Medium,354,3,5,4,35520
+2762,Need Attention,Medium,334,3,3,4,36890
+2763,Lost,Low,132,1,3,2,18050
+2764,At Risk,Low,232,2,3,2,23310
+2765,Promising,Low,411,4,1,1,15000
+2766,New Customers,Low,521,5,2,1,16600
+2767,Promising,Medium,415,4,1,5,29760
+2768,Lost,Low,123,1,2,3,18000
+2769,Lost,Low,124,1,2,4,25200
+2770,At Risk,Medium,255,2,5,5,40560
+2771,Promising,Medium,425,4,2,5,28220
+2772,At Risk,Medium,235,2,3,5,30690
+2773,Cant Lose Them,Medium,144,1,4,4,24900
+2774,Cant Lose Them,Medium,145,1,4,5,38080
+2775,At Risk,Medium,234,2,3,4,29580
+2776,Cant Lose Them,Low,142,1,4,2,18040
+2777,Promising,Medium,523,5,2,3,33040
+2778,Potential Loyalists,Medium,533,5,3,3,25420
+2779,At Risk,Medium,252,2,5,2,31050
+2780,Need Attention,Medium,354,3,5,4,38850
+2781,At Risk,Medium,245,2,4,5,30960
+2782,About To Sleep,Low,311,3,1,1,10660
+2783,Loyal Customers,Medium,444,4,4,4,42480
+2784,Hibernating,Low,215,2,1,5,28890
+2785,Promising,Medium,515,5,1,5,36630
+2786,Promising,Low,422,4,2,2,23320
+2787,About To Sleep,Low,311,3,1,1,14820
+2788,Hibernating,Low,221,2,2,1,16240
+2789,Promising,Low,422,4,2,2,25960
+2790,Promising,Medium,513,5,1,3,26000
+2791,New Customers,Low,521,5,2,1,17200
+2792,Loyal Customers,Premium,545,5,4,5,34440
+2793,Need Attention,Medium,344,3,4,4,29580
+2794,About To Sleep,Low,322,3,2,2,19400
+2795,Need Attention,Low,331,3,3,1,17670
+2796,Cant Lose Them,Low,142,1,4,2,21340
+2797,Lost,Medium,532,5,3,2,29160
+2798,Lost,Low,114,1,1,4,19530
+2799,Potential Loyalists,Premium,535,5,3,5,32370
+2800,New Customers,Low,511,5,1,1,16660
+2801,Loyal Customers,Premium,445,4,4,5,34800
+2802,Lost,Low,122,1,2,2,16000
+2803,At Risk,Low,233,2,3,3,21000
+2804,Lost,Medium,541,5,4,1,24180
+2805,Promising,Low,413,4,1,3,23230
+2806,Lost,Medium,551,5,5,1,33640
+2807,Lost,Medium,452,4,5,2,31930
+2808,Promising,Medium,425,4,2,5,32640
+2809,Cant Lose Them,Medium,153,1,5,3,28710
+2810,Promising,Medium,513,5,1,3,20750
+2811,Cant Lose Them,Medium,144,1,4,4,35400
+2812,At Risk,Medium,252,2,5,2,23760
+2813,Promising,Medium,414,4,1,4,31050
+2814,New Customers,Medium,522,5,2,2,28080
+2815,New Customers,Low,512,5,1,2,21840
+2816,New Customers,Low,512,5,1,2,20790
+2817,Need Attention,Low,332,3,3,2,27140
+2818,Potential Loyalists,Medium,433,4,3,3,29580
+2819,Need Attention,Low,332,3,3,2,20240
+2820,Lost,Medium,135,1,3,5,30690
+2821,Lost,Medium,531,5,3,1,21160
+2822,At Risk,Medium,245,2,4,5,34200
+2823,Promising,Low,413,4,1,3,24150
+2824,Cant Lose Them,Medium,145,1,4,5,38080
+2825,Lost,Medium,441,4,4,1,19680
+2826,Potential Loyalists,Medium,443,4,4,3,30080
+2827,Lost,Medium,542,5,4,2,31800
+2828,Lost,Medium,441,4,4,1,25920
+2829,Hibernating,Low,213,2,1,3,17100
+2830,New Customers,Low,521,5,2,1,17000
+2831,Potential Loyalists,Premium,553,5,5,3,31080
+2832,Cant Lose Them,Low,151,1,5,1,19320
+2833,Cant Lose Them,Low,151,1,5,1,18270
+2834,Lost,Medium,552,5,5,2,28050
+2835,About To Sleep,Medium,324,3,2,4,29680
+2836,Promising,Medium,525,5,2,5,33480
+2837,Need Attention,Medium,354,3,5,4,41810
+2838,Cant Lose Them,Low,143,1,4,3,21320
+2839,Need Attention,Low,331,3,3,1,20900
+2840,Promising,Medium,523,5,2,3,25200
+2841,Hibernating,Low,221,2,2,1,14840
+2842,Champions,Premium,555,5,5,5,49950
+2843,About To Sleep,Medium,324,3,2,4,32760
+2844,Cant Lose Them,Low,152,1,5,2,22000
+2845,About To Sleep,Low,323,3,2,3,21600
+2846,Lost,Medium,531,5,3,1,20240
+2847,Potential Loyalists,Medium,453,4,5,3,31500
+2848,Cant Lose Them,Medium,154,1,5,4,27720
+2849,Cant Lose Them,Low,151,1,5,1,24780
+2850,Need Attention,Medium,353,3,5,3,36630
+2851,Cant Lose Them,Medium,155,1,5,5,35890
+2852,Potential Loyalists,Medium,434,4,3,4,32340
+2853,Lost,Medium,451,4,5,1,25920
+2854,Promising,Medium,415,4,1,5,28210
+2855,Need Attention,Low,341,3,4,1,19800
+2856,Loyal Customers,Premium,544,5,4,4,39140
+2857,Promising,Medium,423,4,2,3,20800
+2858,Potential Loyalists,Medium,434,4,3,4,30690
+2859,Lost,Medium,541,5,4,1,21320
+2860,Need Attention,Premium,355,3,5,5,42640
+2861,At Risk,Medium,254,2,5,4,29750
+2862,Need Attention,Low,331,3,3,1,22040
+2863,Promising,Medium,423,4,2,3,30940
+2864,Lost,Low,132,1,3,2,18240
+2865,Promising,Medium,525,5,2,5,41760
+2866,Lost,Medium,542,5,4,2,26400
+2867,About To Sleep,Low,314,3,1,4,28750
+2868,Need Attention,Medium,353,3,5,3,38940
+2869,Hibernating,Low,221,2,2,1,11620
+2870,Promising,Low,412,4,1,2,17480
+2871,Promising,Medium,423,4,2,3,26780
+2872,Champions,Premium,555,5,5,5,50400
+2873,Lost,Medium,542,5,4,2,34500
+2874,Need Attention,Medium,344,3,4,4,40460
+2875,Hibernating,Low,211,2,1,1,9130
+2876,Cant Lose Them,Medium,154,1,5,4,28050
+2877,Need Attention,Medium,351,3,5,1,20250
+2878,Potential Loyalists,Medium,433,4,3,3,34510
+2879,About To Sleep,Low,322,3,2,2,16000
+2880,About To Sleep,Low,312,3,1,2,19380
+2881,Need Attention,Medium,334,3,3,4,26350
+2882,Promising,Medium,525,5,2,5,40680
+2883,Lost,Medium,552,5,5,2,27720
+2884,New Customers,Medium,522,5,2,2,27120
+2885,Promising,Low,413,4,1,3,26910
+2886,Lost,Low,114,1,1,4,17640
+2887,Loyal Customers,Premium,445,4,4,5,47600
+2888,Lost,Low,125,1,2,5,30240
+2889,Potential Loyalists,Medium,443,4,4,3,27200
+2890,Need Attention,Medium,344,3,4,4,39780
+2891,Hibernating,Low,223,2,2,3,25520
+2892,Loyal Customers,Premium,455,4,5,5,36550
+2893,Lost,Low,132,1,3,2,19950
+2894,At Risk,Medium,255,2,5,5,40950
+2895,Need Attention,Medium,353,3,5,3,38280
+2896,Loyal Customers,Premium,545,5,4,5,42000
+2897,Need Attention,Medium,354,3,5,4,40700
+2898,Cant Lose Them,Medium,145,1,4,5,29240
+2899,Need Attention,Medium,345,3,4,5,31540
+2900,New Customers,Low,521,5,2,1,20600
+2901,At Risk,Medium,255,2,5,5,37830
+2902,Lost,Low,111,1,1,1,7470
+2903,Hibernating,Low,213,2,1,3,19000
+2904,Lost,Medium,452,4,5,2,26350
+2905,About To Sleep,Medium,324,3,2,4,23520
+2906,Promising,Medium,513,5,1,3,29500
+2907,At Risk,Low,251,2,5,1,23230
+2908,Champions,Premium,555,5,5,5,51750
+2909,Potential Loyalists,Premium,535,5,3,5,31590
+2910,Lost,Medium,552,5,5,2,36960
+2911,Hibernating,Low,215,2,1,5,31320
+2912,Promising,Medium,513,5,1,3,23250
+2913,Promising,Low,422,4,2,2,25740
+2914,Cant Lose Them,Medium,155,1,5,5,36260
+2915,Need Attention,Low,332,3,3,2,24610
+2916,Promising,Medium,513,5,1,3,22500
+2917,Cant Lose Them,Medium,154,1,5,4,29040
+2918,Potential Loyalists,Medium,453,4,5,3,30450
+2919,Lost,Medium,452,4,5,2,31930
+2920,Promising,Medium,514,5,1,4,25810
+2921,About To Sleep,Low,313,3,1,3,24780
+2922,Promising,Medium,415,4,1,5,28210
+2923,Lost,Low,122,1,2,2,17920
+2924,About To Sleep,Medium,325,3,2,5,26560
+2925,Lost,Low,134,1,3,4,30510
+2926,Potential Loyalists,Premium,553,5,5,3,30340
+2927,Potential Loyalists,Medium,543,5,4,3,35360
+2928,Lost,Low,132,1,3,2,15960
+2929,About To Sleep,Low,322,3,2,2,22000
+2930,Lost,Low,114,1,1,4,21000
+2931,Need Attention,Premium,355,3,5,5,45510
+2932,Lost,Medium,541,5,4,1,26000
+2933,Cant Lose Them,Low,152,1,5,2,27500
+2934,At Risk,Low,232,2,3,2,22680
+2935,Potential Loyalists,Medium,533,5,3,3,28830
+2936,At Risk,Low,232,2,3,2,21840
+2937,Promising,Medium,423,4,2,3,22360
+2938,Lost,Medium,442,4,4,2,31080
+2939,Potential Loyalists,Premium,553,5,5,3,32560
+2940,Loyal Customers,Premium,544,5,4,4,39900
+2941,Potential Loyalists,Medium,443,4,4,3,32960
+2942,Loyal Customers,Premium,454,4,5,4,42120
+2943,Need Attention,Medium,352,3,5,2,33640
+2944,Lost,Medium,432,4,3,2,25750
+2945,At Risk,Medium,252,2,5,2,32130
+2946,Need Attention,Medium,354,3,5,4,36260
+2947,Lost,Low,131,1,3,1,13350
+2948,Potential Loyalists,Medium,443,4,4,3,35200
+2949,Lost,Low,132,1,3,2,15770
+2950,Need Attention,Medium,333,3,3,3,24840
+2951,Loyal Customers,Premium,455,4,5,5,49880
+2952,Promising,Low,411,4,1,1,15750
+2953,Potential Loyalists,Medium,434,4,3,4,31350
+2954,Promising,Medium,513,5,1,3,28250
+2955,About To Sleep,Low,314,3,1,4,26250
+2956,Lost,Medium,442,4,4,2,29680
+2957,Loyal Customers,Premium,454,4,5,4,35490
+2958,At Risk,Medium,244,2,4,4,26880
+2959,Need Attention,Medium,335,3,3,5,39550
+2960,Lost,Low,131,1,3,1,15600
+2961,Potential Loyalists,Premium,535,5,3,5,35100
+2962,Hibernating,Medium,225,2,2,5,27600
+2963,Hibernating,Low,212,2,1,2,16800
+2964,Potential Loyalists,Medium,534,5,3,4,33250
+2965,New Customers,Low,511,5,1,1,17000
+2966,Hibernating,Medium,225,2,2,5,34500
+2967,Lost,Low,122,1,2,2,18080
+2968,Champions,Premium,555,5,5,5,47700
+2969,Need Attention,Low,341,3,4,1,24860
+2970,About To Sleep,Medium,325,3,2,5,33600
+2971,Lost,Low,131,1,3,1,14400
+2972,Hibernating,Low,222,2,2,2,18180
+2973,About To Sleep,Medium,325,3,2,5,31040
+2974,Potential Loyalists,Medium,435,4,3,5,34780
+2975,Lost,Low,115,1,1,5,28250
+2976,Cant Lose Them,Low,151,1,5,1,23940
+2977,Need Attention,Low,332,3,3,2,20930
+2978,Lost,Medium,432,4,3,2,24000
+2979,At Risk,Low,251,2,5,1,25990
+2980,Potential Loyalists,Medium,453,4,5,3,38500
+2981,Cant Lose Them,Medium,154,1,5,4,38940
+2982,Lost,Low,133,1,3,3,19090
+2983,Cant Lose Them,Low,143,1,4,3,20800
+2984,About To Sleep,Medium,315,3,1,5,26100
+2985,About To Sleep,Low,321,3,2,1,14080
+2986,At Risk,Medium,252,2,5,2,24030
+2987,Hibernating,Low,224,2,2,4,24960
+2988,Champions,Premium,555,5,5,5,40050
+2989,Potential Loyalists,Medium,453,4,5,3,28000
+2990,Promising,Medium,525,5,2,5,38160
+2991,About To Sleep,Low,314,3,1,4,28250
+2992,Need Attention,Medium,342,3,4,2,26260
+2993,Promising,Low,422,4,2,2,23100
+2994,Lost,Medium,451,4,5,1,25920
+2995,Promising,Medium,415,4,1,5,34100
+2996,At Risk,Medium,235,2,3,5,31350
+2997,Hibernating,Low,224,2,2,4,24440
+2998,Lost,Low,122,1,2,2,14880
+2999,At Risk,Low,242,2,4,2,26640
+3000,Need Attention,Medium,345,3,4,5,44080
